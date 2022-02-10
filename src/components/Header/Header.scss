@@ -1,0 +1,62 @@
+
+header {
+    background-color: black;
+    .logo{
+        margin: 0;
+        width: 100vw;
+        height: 35vh;
+    }
+    .header-container{
+        transition: all ease-in-out .8s;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: left;
+        padding: 0;
+        margin: 0;
+        width: 100vw;
+        height: 38vh;
+        color: white;
+        span{
+            margin-left: 20px;
+            font-size: 25px;
+            text-transform: uppercase;
+
+        }
+        .principal-links{
+            padding: 20px;
+    
+            a{
+                font-size: 30px;
+                text-decoration: none;
+                color: white;
+                border: 2px solid white;
+                border-radius: 5px;
+                margin-right: 5px;
+                padding:5px 10px;
+                transition: all ease-in-out .5s;
+    
+            }
+            a:hover{
+                transition: all ease-in-out .5s;
+                border-color: rgb(187, 231, 99);
+                box-shadow: 1px 2px 5px rgb(187, 231, 99);
+                color: rgb(187, 231, 99);
+            }
+        }
+    }
+    .header-container:hover{
+        opacity: 0.5;
+        transition: all ease-in-out .8s;
+
+        background-image: url('../../assets/images/awari3.jpg');
+        background-position: right;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        a{
+            opacity: 1;
+        }
+
+    }
+}

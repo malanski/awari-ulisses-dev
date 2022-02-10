@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { HashRouter, Routes, Route } from 'react-router-dom';
+// import { useDispatch, useSelector } from 'react-redux';
+import { Header } from './components/Header';
+import { Aside } from './components/Aside';
+import { Footer } from './components/Footer';
+
+import { Home } from './pages/Home'
+import { Atividade1 } from './pages/Atividade1'
+import { Atividade2 } from './pages/Atividade2'
+import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App">
+    <HashRouter>
+
+      <Header/>
+        <main className='app-main'>
+          <Aside />
+
+          <Routes>
+            <Route path ='/' element={<Home />} />
+            <Route path ='/atividade1' element={<Atividade1 />} />
+            <Route path ='/atividade2' element={<Atividade2 />} />
+          </Routes>
+        </main>
+
+        <Footer/>
+    </HashRouter>
     </div>
   );
 }

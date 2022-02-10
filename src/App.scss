@@ -2,11 +2,21 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  box-sizing: border-box;
+}
+html, body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
 }
 
+.app-main {
+  display: flex;
+}
+.flex {
+  display: flex;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
