@@ -35,16 +35,31 @@ export const Aside = (props) => {
                 <li>
                     <CustomLink to="/atividade1">
                         <span>
-                            Atividade:<br/>
                             Observar e relatar  
-
                         </span>
                     </CustomLink>
                 </li>
+                
                 <li>
                     <CustomLink to="/atividade2">
                         <span>
-                            Atividade
+                            Create Portfolio Github
+                        </span>
+                    </CustomLink>
+                </li>
+
+                <li>
+                    <CustomLink to="/atividade3">
+                        <span>
+                            Linkedin + Networking
+                        </span>
+                    </CustomLink>
+                </li>
+
+                <li>
+                    <CustomLink to="/atividade4">
+                        <span>
+                            Carta de Apresentação
                         </span>
                     </CustomLink>
                 </li>
