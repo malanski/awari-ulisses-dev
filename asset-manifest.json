@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/awari-ulisses-dev/static/css/main.caebd779.css",
+    "main.js": "/awari-ulisses-dev/static/js/main.f218490f.js",
+    "static/js/787.56519065.chunk.js": "/awari-ulisses-dev/static/js/787.56519065.chunk.js",
+    "static/media/image.png": "/awari-ulisses-dev/static/media/image.107fde9c14a97a0da944.png",
+    "static/media/awari4.jpg": "/awari-ulisses-dev/static/media/awari4.8dad8caee04409c7c88d.jpg",
+    "static/media/awari3.jpg": "/awari-ulisses-dev/static/media/awari3.da7168e843e5933939c1.jpg",
+    "index.html": "/awari-ulisses-dev/index.html",
+    "main.caebd779.css.map": "/awari-ulisses-dev/static/css/main.caebd779.css.map",
+    "main.f218490f.js.map": "/awari-ulisses-dev/static/js/main.f218490f.js.map",
+    "787.56519065.chunk.js.map": "/awari-ulisses-dev/static/js/787.56519065.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.caebd779.css",
+    "static/js/main.f218490f.js"
+  ]
+}
