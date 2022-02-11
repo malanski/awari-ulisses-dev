@@ -50,3 +50,12 @@ aside{
         color: black;
     }
 }
+@media screen and(max-width: 412px) {
+    aside{
+        width: 100%;
+        h3{
+            font-size: 20px;
+        }
+    }
+    
+}

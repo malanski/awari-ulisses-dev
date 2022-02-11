@@ -60,3 +60,25 @@ header {
 
     }
 }
+@media screen and(max-width: 421px) {
+    header{
+        .header-container{
+            span{
+                margin-left: 0;
+            }
+            .principal-links{
+                display: flex;
+                
+                padding: 0;
+                padding-bottom: 20px;
+                flex-direction: row;
+                a{
+                    display: block;
+                    width: 33%;
+                }
+            }
+        }
+        
+    }
+    
+}
