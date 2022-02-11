@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/awari-ulisses-dev/static/css/main.89a689d8.css",
+    "main.css": "/awari-ulisses-dev/static/css/main.c67f3044.css",
     "main.js": "/awari-ulisses-dev/static/js/main.8108a28b.js",
     "static/js/787.56519065.chunk.js": "/awari-ulisses-dev/static/js/787.56519065.chunk.js",
     "static/media/image.png": "/awari-ulisses-dev/static/media/image.107fde9c14a97a0da944.png",
@@ -10,12 +10,12 @@
     "static/media/image2.png": "/awari-ulisses-dev/static/media/image2.113b579a28665261c4ca.png",
     "static/media/image4.png": "/awari-ulisses-dev/static/media/image4.b80691153cef58dc21da.png",
     "index.html": "/awari-ulisses-dev/index.html",
-    "main.89a689d8.css.map": "/awari-ulisses-dev/static/css/main.89a689d8.css.map",
+    "main.c67f3044.css.map": "/awari-ulisses-dev/static/css/main.c67f3044.css.map",
     "main.8108a28b.js.map": "/awari-ulisses-dev/static/js/main.8108a28b.js.map",
     "787.56519065.chunk.js.map": "/awari-ulisses-dev/static/js/787.56519065.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89a689d8.css",
+    "static/css/main.c67f3044.css",
     "static/js/main.8108a28b.js"
   ]
 }
