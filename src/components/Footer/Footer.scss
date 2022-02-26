@@ -4,4 +4,37 @@ footer{
     padding-top: 20px;
     padding-bottom: 20px;
     bottom: 0;
+    .social {
+        padding: 0;
+        display: flex;
+        width: 90%;
+        margin-left: 5%;
+        text-align: center;
+        justify-content: space-evenly;
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 40px;
+            padding: 15px;
+            border-radius: 50%;
+
+
+            transition: all ease-in-out 0.8s;
+
+        }
+    }
+    .social a:hover {
+        transition: all ease-in-out 0.8s;
+        color: greenyellow;
+        box-shadow: 1px 1px 10px greenyellow;
+    }
+    .black-font{
+        color: rgb(22, 22, 22);
+        transition: all ease-in-out 1.5s;
+
+    }
+    .black-font:hover {
+        transition: all ease-in-out 1.5s;
+        color: rgb(15, 15, 15);
+    }
 }

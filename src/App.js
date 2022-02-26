@@ -9,6 +9,7 @@ import { Atividade1 } from './pages/Atividade1'
 import { Atividade2 } from './pages/Atividade2'
 import { Atividade3 } from './pages/Atividade3'
 import { Atividade4 } from './pages/Atividade4'
+import { Atividade5 } from './pages/Atividade5'
 import './App.scss';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
             <Route path ='/atividade2' element={<Atividade2 />} />
             <Route path ='/atividade3' element={<Atividade3 />} />
             <Route path ='/atividade4' element={<Atividade4 />} />
+            <Route path ='/atividade5' element={<Atividade5 />} />
           </Routes>
         </main>
 
