@@ -67,7 +67,15 @@ export const Aside = (props) => {
                 <li>
                     <CustomLink to="/atividade5">
                         <span>
-                            Site usando apenas HTML + CSS
+                            Projeto: Pagina HTML + CSS
+                        </span>
+                    </CustomLink>
+                </li>
+
+                <li>
+                    <CustomLink to="/atividade6">
+                        <span>
+                            Projeto: React App
                         </span>
                     </CustomLink>
                 </li>
