@@ -1,15 +1,17 @@
-import '../../assets/scss/Atividade3.scss';
+import '../../assets/scss/Atividade5.scss';
 import atividade5 from '../../assets/images/image5.png';
 
 
 
 export const Atividade5 = (props) => {
     return (
-        <div className='atividade3'>
+        <div className='atividade5'>
             <h1>Criar uma página usando apenas HTML + CSS</h1>
             <a href='https://malanski.github.io/ulisses-malanski-art/index.html'>
                 <img src={atividade5}/>
             </a>
+
+
             
 
             <h2>Objetivos</h2>
@@ -40,7 +42,7 @@ export const Atividade5 = (props) => {
 
                 <li>
                     O código precisa estar no GitHub. 
-                    <a href='https://github.com/malanski/ulisses-malanski-art'> Repositório</a>
+                    
                 </li>
 
                 <li>
@@ -48,10 +50,20 @@ export const Atividade5 = (props) => {
                 </li>
 
                 <li>
-                    Garantir um HTML 100% válido pela W3C= Document checking completed. No errors or warnings to show.
+                    Garantir um HTML 100% válido pela W3C.
+                    <blockquote className='green'> Document checking completed. No errors or warnings to show.</blockquote>
                 </li>
             </ul>
-            
+
+            <h3>Solução:</h3>
+            <div className='flex-row'>
+                <div className='btn-solution'>
+                    <a href='https://github.com/malanski/ulisses-malanski-art'>Repositório</a>
+                </div>
+                <div className='btn-solution'>
+                    <a href='https://malanski.github.io/ulisses-malanski-art/index.html'>Github Pages</a>
+                </div>
+            </div>
         </div>
     )
 }
