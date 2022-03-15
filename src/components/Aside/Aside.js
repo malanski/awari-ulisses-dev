@@ -79,6 +79,14 @@ export const Aside = (props) => {
                         </span>
                     </CustomLink>
                 </li>
+
+                <li>
+                    <CustomLink to="/atividade7">
+                        <span>
+                            Projeto: Next.js App
+                        </span>
+                    </CustomLink>
+                </li>
             </ol>
         </aside>
     )

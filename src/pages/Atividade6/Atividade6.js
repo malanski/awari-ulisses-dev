@@ -1,11 +1,11 @@
-import '../../assets/scss/Atividade3.scss';
+import '../../assets/scss/Atividade6.scss';
 /* import atividade6 from '../../assets/images/image6.png'; */
 
 
 
 export const Atividade6 = (props) => {
     return (
-        <div className='atividade3'>
+        <div className='atividade6'>
             <h1>Projeto React App</h1>
             
             
@@ -66,6 +66,24 @@ export const Atividade6 = (props) => {
                     </blockquote>
                 </li>    
             </ul>
+            <h3>Solução Especificação1:</h3>
+            <div className='flex-row'>
+                <div className='btn-solution'>
+                    <a href='https://github.com/malanski/projeto-react-app'>Repositório</a>
+                </div>
+                <div className='btn-solution'>
+                    <a href='https://malanski.github.io/projeto-react-app'>Github Pages</a>
+                </div>
+            </div>
+            <h3>Solução Especificação2:</h3>
+            <div className='flex-row'>
+                <div className='btn-solution'>
+                    <a href='https://github.com/malanski/projeto-react-app2'>Repositório</a>
+                </div>
+                <div className='btn-solution'>
+                    <a href='https://malanski.github.io/projeto-react-app2'>Github Pages</a>
+                </div>
+            </div>
         </div>
     )
 }

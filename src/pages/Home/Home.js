@@ -18,6 +18,10 @@ export const Home = (props) => {
                         <li>
                             Algorítmos
                         </li>
+                        
+                        <li>
+                            SEO
+                        </li>
 
                         <li>
                             Redes
@@ -29,6 +33,14 @@ export const Home = (props) => {
 
                         <li>
                             Linux
+                        </li>
+
+                        <li>
+                            VScode
+                        </li>
+
+                        <li>
+                            WSL
                         </li>
                     </ul>
                 </div>
@@ -54,8 +66,17 @@ export const Home = (props) => {
                         </li>
 
                         <li>
-                            reactJS
+                            React
                         </li>
+
+                        <li>
+                            Next
+                        </li>
+
+                        <li>
+                            Git e Github
+                        </li>
+                    
                     </ol>
                 </div>
 
@@ -67,15 +88,23 @@ export const Home = (props) => {
                         </li>
 
                         <li>
-                            JavaScript
+                            SQL - SQlite
                         </li>
 
                         <li>
-                            TypeScript
+                            Dbeaver
                         </li>
 
                         <li>
                             AWS
+                        </li>
+
+                        <li>
+                            Apache
+                        </li>
+
+                        <li>
+                            Heroku
                         </li>
 
                     </ol>
