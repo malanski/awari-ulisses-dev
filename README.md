@@ -1,6 +1,6 @@
 # All Activities from Awari Web Development Course  
   
-## Activity 15: Tech Chalenges from Awari Web Development Course
+## 20 Activities from Awari Full Stack Course
 
 <div align='right'>
     
