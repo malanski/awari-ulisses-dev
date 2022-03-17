@@ -1,4 +1,4 @@
-# All Activities from Awari Web Development Course  
+# All Projects and Activities from Awari Web Development Course  
   
 ## 20 Activities from Awari Full Stack Course
 
@@ -10,4 +10,51 @@
 
 ### Objectives
     
-List in all the Techical Chalenges developed on the course.
+List all the Projects and Activities developed on the course.
+
+# FrontEND + BackEND
+  
+## Abilities developed  
+- HTML
+- CSS
+- SASS/SCSS
+- JavaScript
+- TypeScript
+- React.js
+- Next.js
+- Node
+- SQL
+  
+## Work with
+- VScode
+- Sequelize
+- Dbeaver
+- PostgreSQL
+- AWS
+- CI and CD
+- Cloud Deploy
+- Open Source Community
+- FaaS
+- SEO
+
+## Using Tools like
+- FontAwesome
+- Chakra
+- MUI
+- Bootstrap
+- Windows (WSL)
+- Linux
+  
+## Other Skills
+- Algorithm
+- W3C validation
+- Responsivity
+- Programing Logic
+- Data Base
+- Git and GIthub
+- Vanilla coding
+- Research
+- 
+- 
+- 
+
