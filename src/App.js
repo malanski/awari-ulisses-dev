@@ -13,6 +13,7 @@ import { Atividade5 } from './pages/Atividade5'
 import { Atividade6 } from './pages/Atividade6'
 import { Atividade7 } from './pages/Atividade7'
 import { Atividade8 } from './pages/Atividade8'
+import { Atividade15 } from './pages/Atividade15'
 import './App.scss';
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
             <Route path ='/atividade6' element={<Atividade6 />} />
             <Route path ='/atividade7' element={<Atividade7 />} />
             <Route path ='/atividade8' element={<Atividade8 />} />
+            <Route path ='/atividade15' element={<Atividade15 />} />
           </Routes>
         </main>
 
