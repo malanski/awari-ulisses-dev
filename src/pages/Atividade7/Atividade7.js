@@ -6,55 +6,84 @@ import '../../assets/scss/Atividade7.scss';
 export const Atividade7 = (props) => {
     return (
         <div className='atividade7'>
-            <h1>Projeto Next.js App</h1>
+            <h1>Projeto React App</h1>
             
             
 
             <h2>Objetivos</h2>
             <ul>
                 <li>
-                    Construir uma aplicação em Next.js.
+                    Criar uma simples SPA (single page application) de duas maneiras diferentes em React.
                 </li>
                 
                 <li>
-                    Especificação
+                    Especificação 2.1
                     <blockquote>
-                        Crie uma aplicação Next.js.
+                        Cria uma aplicação React sem nenhum tipo de uso de npm, de forma estática, importando os scripts diretamente em sua página HTML.
                     </blockquote>
                     <blockquote>
-                        Crie rotas.
-                    </blockquote>
-                    <blockquote>
-                        Reproduza parte de seu HTML no Next.js.
-                    </blockquote>
-                    <blockquote>
-                        Crie e utilize ao menos um componente.
-                    </blockquote>
-                    <blockquote>
-                        Inclua algum componente com estado.
+                        Crie alguns elementos HTML, quantos conseguir, sem utilizar JSX.
                     </blockquote>
                     <blockquote>
                         O código precisa estar no GitHub.
                     </blockquote>
+                    <blockquote>
+                    Faça pelo menos 4 níveis de parentesco. Exemplo:
+                    <br></br>
+                    section<br></br>
+                    &emsp;|-div<br></br>
+                    &emsp;&emsp;|-p<br></br>
+                    &emsp;&emsp;&emsp;|-span<br></br>
+                    &emsp;&emsp;&emsp;&emsp;|- "Conteúdo"<br></br>
+                    </blockquote>
                 </li>
 
                 <li>
-                    Especificação Power up
+                    Especificação 2.2
                     <blockquote>
-                        Converta para usar TypeScript, em uma branch diferente da principal.
+                        Usar toolchains, e o create-react-app.
+                    </blockquote>
+                    <blockquote>
+                        Altere o Index.
+                    </blockquote>
+                    <blockquote>
+                        Aplicar seu HTML criado na página.
+                    </blockquote>
+                    <blockquote>
+                        Adicione um botão com estado.
+                    </blockquote>
+                    <blockquote>
+                    O código precisa estar no GitHub.
+                    </blockquote>
+                    <blockquote>
+                        Divida suas áreas do HTML em componentes.
+                    </blockquote>
+                    <blockquote>
+                        Coloque uma biblioteca para auxiliar na estilização.
+                    </blockquote>
+                    <blockquote>
+                        Instale e implemente algum componente open source.
                     </blockquote>
                 </li>    
             </ul>
-            <h3>Solução Especificação1:</h3>
+            <h3>Solução Especificação 2.1:</h3>
             <div className='flex-row'>
                 <div className='btn-solution'>
-                    <a href='https://github.com/malanski/poke-store-next'>Repositório</a>
+                    <a href='https://github.com/malanski/projeto-react-app'>Repositório</a>
                 </div>
                 <div className='btn-solution'>
-                    <a href='https://poke-store-next.vercel.app'>Github Pages</a>
+                    <a href='https://malanski.github.io/projeto-react-app'>Github Pages</a>
                 </div>
             </div>
-            
+            <h3>Solução Especificação 2.2:</h3>
+            <div className='flex-row'>
+                <div className='btn-solution'>
+                    <a href='https://github.com/malanski/projeto-react-app2'>Repositório</a>
+                </div>
+                <div className='btn-solution'>
+                    <a href='https://malanski.github.io/projeto-react-app2'>Github Pages</a>
+                </div>
+            </div>
         </div>
     )
 }

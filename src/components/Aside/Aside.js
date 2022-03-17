@@ -43,7 +43,7 @@ export const Aside = (props) => {
                 <li>
                     <CustomLink to="/atividade2">
                         <span>
-                            Create Portfolio Github
+                            <small>Especificações</small> 0: Create Portfolio Github
                         </span>
                     </CustomLink>
                 </li>
@@ -67,7 +67,7 @@ export const Aside = (props) => {
                 <li>
                     <CustomLink to="/atividade5">
                         <span>
-                            Projeto: Pagina HTML + CSS
+                            Curriculo
                         </span>
                     </CustomLink>
                 </li>
@@ -75,7 +75,7 @@ export const Aside = (props) => {
                 <li>
                     <CustomLink to="/atividade6">
                         <span>
-                            Projeto: React App
+                            <small>Especificações</small> 1: Projeto: Pagina HTML + CSS
                         </span>
                     </CustomLink>
                 </li>
@@ -83,10 +83,115 @@ export const Aside = (props) => {
                 <li>
                     <CustomLink to="/atividade7">
                         <span>
-                            Projeto: Next.js App
+                            <small>Especificações</small> 2: Projeto: React App
                         </span>
                     </CustomLink>
                 </li>
+
+                <li>
+                    <CustomLink to="/atividade8">
+                        <span>
+                            <small>Especificações</small> 3: Projeto: Next.js App
+                        </span>
+                    </CustomLink>
+                </li>
+
+                <li>
+                    <CustomLink to="/atividade9">
+                        <span>
+                            <small>Especificações</small> 4: Projeto: Database
+                        </span>
+                    </CustomLink>
+                </li>
+
+                <li>
+                    <CustomLink to="/atividade8">
+                        <span>
+                            <small>Especificações</small> 10: Projeto:  Next.js + TypeScript
+                        </span>
+                    </CustomLink>
+                </li>
+
+                <li>
+                    <CustomLink to="/atividade11">
+                        <span>
+                            Employment Sheet: Job Searching 
+                        </span>
+                    </CustomLink>
+                </li>
+
+                <li>
+                    <CustomLink to="/atividade12">
+                        <span>
+                            Job applying: Job Searching 
+                        </span>
+                    </CustomLink>
+                </li>
+
+                <li>
+                    <CustomLink to="/atividade13">
+                        <span>
+                            <small>Especificações</small> 5: Projeto: Exress API
+                        </span>
+                    </CustomLink>
+                </li>
+
+                <li>
+                    <CustomLink to="/atividade14">
+                        <span>
+                            <small>Especificações</small> 6: Projeto: Conteinteirize API
+                        </span>
+                    </CustomLink>
+                </li>
+
+                <li>
+                    <CustomLink to="/atividade15">
+                        <span>
+                            <small>Desafios Técnicos</small>: Selection Process Preparation 
+                        </span>
+                    </CustomLink>
+                </li>
+
+                <li>
+                    <CustomLink to="/atividade16">
+                        <span>
+                            <small>Especificações</small> 7: Projeto: Deploy na Cloud
+                        </span>
+                    </CustomLink>
+                </li>
+
+                <li>
+                    <CustomLink to="/atividade17">
+                        <span>
+                            <small>Especificações</small> 8: Projeto: Lambda no ar
+                        </span>
+                    </CustomLink>
+                </li>
+
+                <li>
+                    <CustomLink to="/atividade18">
+                        <span>
+                            Tarefa: E.V.P.
+                        </span>
+                    </CustomLink>
+                </li>
+                
+                <li>
+                    <CustomLink to="/atividade19">
+                        <span>
+                            Tarefa: Career Development
+                        </span>
+                    </CustomLink>
+                </li>
+
+                <li>
+                    <CustomLink to="/atividade8">
+                        <span>
+                            <small>Especificações</small> 9: Projeto: Next.js + TypeScript + API
+                        </span>
+                    </CustomLink>
+                </li>
+                
             </ol>
         </aside>
     )
