@@ -1,87 +1,67 @@
 import '../../assets/scss/Atividade6.scss';
-/* import atividade6 from '../../assets/images/image6.png'; */
+import atividade6 from '../../assets/images/image5.png';
 
 
 
 export const Atividade6 = (props) => {
     return (
         <div className='atividade6'>
-            <h1>Projeto React App</h1>
-            
+            <h1>Criar uma página usando apenas HTML + CSS</h1>
+            <a href='https://malanski.github.io/ulisses-malanski-art/index.html'>
+                <img src={atividade6}/>
+            </a>
+
+
             
 
             <h2>Objetivos</h2>
             <ul>
                 <li>
-                    Criar uma simples SPA (single page application) de duas maneiras diferentes em React.
+                    Apenas HTML e CSS!
                 </li>
                 
                 <li>
-                    Especificação 1
-                    <blockquote>
-                        Cria uma aplicação React sem nenhum tipo de uso de npm, de forma estática, importando os scripts diretamente em sua página HTML.
-                    </blockquote>
-                    <blockquote>
-                        Crie alguns elementos HTML, quantos conseguir, sem utilizar JSX.
-                    </blockquote>
-                    <blockquote>
-                        O código precisa estar no GitHub.
-                    </blockquote>
-                    <blockquote>
-                    Faça pelo menos 4 níveis de parentesco. Exemplo:
-                    <br></br>
-                    section<br></br>
-                    &emsp;|-div<br></br>
-                    &emsp;&emsp;|-p<br></br>
-                    &emsp;&emsp;&emsp;|-span<br></br>
-                    &emsp;&emsp;&emsp;&emsp;|- "Conteúdo"<br></br>
-                    </blockquote>
+                    Utilizar ao menos 30 elementos do HTML.
                 </li>
 
                 <li>
-                    Especificação 2
-                    <blockquote>
-                        Usar toolchains, e o create-react-app.
-                    </blockquote>
-                    <blockquote>
-                        Altere o Index.
-                    </blockquote>
-                    <blockquote>
-                        Aplicar seu HTML criado na página.
-                    </blockquote>
-                    <blockquote>
-                        Adicione um botão com estado.
-                    </blockquote>
-                    <blockquote>
-                    O código precisa estar no GitHub.
-                    </blockquote>
-                    <blockquote>
-                        Divida suas áreas do HTML em componentes.
-                    </blockquote>
-                    <blockquote>
-                        Coloque uma biblioteca para auxiliar na estilização.
-                    </blockquote>
-                    <blockquote>
-                        Instale e implemente algum componente open source.
-                    </blockquote>
-                </li>    
+                    Utilizar .classes e #ids, da forma correta.
+                </li>
+
+                <li>
+                    Deve ter algumas imagens.
+                </li>
+
+                <li>
+                    Deve ter ao menos um embed do YouTube em algum lugar da página.
+                </li>
+
+                <li>
+                    Deve ser responsivo. Ao menos uma versão mobile e uma versão desktop.
+                </li>
+
+                <li>
+                    O código precisa estar no GitHub. 
+                    
+                </li>
+
+                <li>
+                    Criar versões para os breakpoints mais importantes. O Next.js sugere: 640, 750, 828, 1080, 1200, 1920, 2048, 3840.
+                </li>
+
+                <li>
+                    Garantir um HTML 100% válido pela W3C.
+                    <blockquote className='green'> Document checking completed. No errors or warnings to show.</blockquote>
+                </li>
             </ul>
-            <h3>Solução Especificação1:</h3>
+
+            <h3>Solução:</h3>
             <div className='flex-row'>
                 <div className='btn-solution'>
-                    <a href='https://github.com/malanski/projeto-react-app'>Repositório</a>
+                    <a href='https://github.com/malanski/ulisses-malanski-art'>Repositório</a>
                 </div>
                 <div className='btn-solution'>
-                    <a href='https://malanski.github.io/projeto-react-app'>Github Pages</a>
-                </div>
-            </div>
-            <h3>Solução Especificação2:</h3>
-            <div className='flex-row'>
-                <div className='btn-solution'>
-                    <a href='https://github.com/malanski/projeto-react-app2'>Repositório</a>
-                </div>
-                <div className='btn-solution'>
-                    <a href='https://malanski.github.io/projeto-react-app2'>Github Pages</a>
+                    <a href='https://malanski.github.io/ulisses-malanski-art/index.html'>Github Pages</a>
                 </div>
             </div>
         </div>
