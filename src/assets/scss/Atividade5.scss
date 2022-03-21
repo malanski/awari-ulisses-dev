@@ -1,9 +1,49 @@
+
 .atividade5{
-    background-color: black;
     width: 100%;
-    min-height: 150vh;
+    background: rgb(29, 29, 29);
+    color: white;
     .row-abilities{
         display: flex;
         justify-content: space-between;
+        align-items: center;
+    }
+
+    
+    .activity-image{
+        width: 90%;
+    }
+
+    h2{
+        text-align: left;
+        margin: 20px;
+    }
+
+    ul{
+        text-align: left;
+        color: white;
+    }
+    .green{
+        color: greenyellow;
+        font-size: larger;
+    }
+    .flex-row {
+        display: flex;
+        justify-content: space-around;
+        
+        .btn-solution{
+            background: black;
+            border: 1px solid greenyellow;
+            border-radius: 5px;
+            padding: 10px 20px;
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+        .btn-solution:hover{
+            box-shadow: 1px 1px 3px greenyellow;
+        }
+        
     }
 }

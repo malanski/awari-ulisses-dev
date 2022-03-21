@@ -6,14 +6,13 @@ import atividade6 from '../../assets/images/image5.png';
 export const Atividade6 = (props) => {
     return (
         <div className='atividade6'>
+
             <h1>Criar uma página usando apenas HTML + CSS</h1>
+
             <a href='https://malanski.github.io/ulisses-malanski-art/index.html'>
-                <img src={atividade6}/>
+                <img className='activity-image' src={atividade6} alt='Basic Site with HTML+CSS'/>
             </a>
-
-
             
-
             <h2>Objetivos</h2>
             <ul>
                 <li>
@@ -56,10 +55,12 @@ export const Atividade6 = (props) => {
             </ul>
 
             <h3>Solução:</h3>
+
             <div className='flex-row'>
                 <div className='btn-solution'>
                     <a href='https://github.com/malanski/ulisses-malanski-art'>Repositório</a>
                 </div>
+                
                 <div className='btn-solution'>
                     <a href='https://malanski.github.io/ulisses-malanski-art/index.html'>Github Pages</a>
                 </div>
