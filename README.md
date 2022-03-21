@@ -26,7 +26,9 @@ List all the Projects and Activities developed on the course.
 - SQL
   
 ## Work with
+- API REST
 - VScode
+- Express
 - Sequelize
 - Dbeaver
 - PostgreSQL
