@@ -217,8 +217,10 @@ export const Aside = (props) => {
                 <li>
                     <CustomLink to="/atividade19">
                         <span>
-                            Tarefa: Career Development
+                            Tarefa: Career Development Plan
                         </span>
+                        <FontAwesomeIcon icon={faCheckCircle} />
+
                     </CustomLink>
                 </li>
 

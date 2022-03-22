@@ -15,6 +15,7 @@ import { Atividade7 } from './pages/Atividade7'
 import { Atividade8 } from './pages/Atividade8'
 import { Atividade15 } from './pages/Atividade15'
 import { Atividade18 } from './pages/Atividade18';
+import { Atividade19 } from './pages/Atividade19';
 
 import './App.scss';
 
@@ -39,6 +40,8 @@ function App() {
             <Route path ='/atividade8' element={<Atividade8 />} />
             <Route path ='/atividade15' element={<Atividade15 />} />
             <Route path ='/atividade18' element={<Atividade18 />} />
+            <Route path ='/atividade19' element={<Atividade19 />} />
+
           </Routes>
         </main>
 

@@ -1,0 +1,86 @@
+
+.atividade19{
+    width: 100%;
+    background: rgb(29, 29, 29);
+    color: white;
+    .row-abilities{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+    .activity-image{
+        width: 90%;
+    }
+    .formation{
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 10%;
+        margin-top: 10%;
+        text-align: left;
+    }
+
+    h2{
+        text-align: left;
+        margin: 20px;
+    }
+
+    table{
+        width: 100%;
+        border: 2px solid white;
+        padding: 3px;
+        border-radius: 5px;
+        th{
+            border-right: 2px solid white;
+
+        }
+        th:last-child{
+            border-right: 0px ;
+
+        }
+        td:last-child{
+            border-right: 0px ;
+
+        }
+        td{
+            border-right: 2px solid white;
+        }
+    }
+
+    ol{
+        text-align: left;
+        color: white;
+        .list-title{
+            font-weight: bold;
+            margin: 3px;
+            blockquote{
+                margin-bottom: 10px;
+                line-height: 25px;
+                font-weight: 300;
+            }
+        }
+    }
+    .green{
+        color: greenyellow;
+        font-size: larger;
+    }
+    .flex-row {
+        display: flex;
+        justify-content: space-around;
+        
+        .btn-solution{
+            background: black;
+            border: 1px solid greenyellow;
+            border-radius: 5px;
+            padding: 10px 20px;
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+        .btn-solution:hover{
+            box-shadow: 1px 1px 3px greenyellow;
+        }
+        
+    }
+}
