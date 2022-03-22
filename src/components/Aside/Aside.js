@@ -1,4 +1,6 @@
 import './Aside.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBattery, faBattery0, faBattery2, faBattery3, faBattery4, faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 
 import {
     Outlet,
@@ -37,6 +39,8 @@ export const Aside = (props) => {
                         <span>
                             Observar e relatar  
                         </span>
+                        <FontAwesomeIcon icon={faCheckCircle} />
+
                     </CustomLink>
                 </li>
                 
@@ -45,6 +49,8 @@ export const Aside = (props) => {
                         <span>
                             <small>Especificações</small> 0: Create Portfolio Github
                         </span>
+                        <FontAwesomeIcon icon={faCheckCircle} />
+
                     </CustomLink>
                 </li>
 
@@ -53,6 +59,8 @@ export const Aside = (props) => {
                         <span>
                             Linkedin + Networking
                         </span>
+                        <FontAwesomeIcon icon={faCheckCircle} />
+
                     </CustomLink>
                 </li>
 
@@ -61,6 +69,8 @@ export const Aside = (props) => {
                         <span>
                             Carta de Apresentação
                         </span>
+                    <FontAwesomeIcon icon={faBattery3} />
+
                     </CustomLink>
                 </li>
 
@@ -70,6 +80,8 @@ export const Aside = (props) => {
                             Curriculo
                         </span>
                     </CustomLink>
+                    <FontAwesomeIcon icon={faBattery4} />
+
                 </li>
 
                 <li>
@@ -77,6 +89,8 @@ export const Aside = (props) => {
                         <span>
                             <small>Especificações</small> 1: Projeto: Pagina HTML + CSS
                         </span>
+                        <FontAwesomeIcon icon={faCheckCircle} />
+
                     </CustomLink>
                 </li>
 
@@ -85,6 +99,8 @@ export const Aside = (props) => {
                         <span>
                             <small>Especificações</small> 2: Projeto: React App
                         </span>
+                        <FontAwesomeIcon icon={faCheckCircle} />
+
                     </CustomLink>
                 </li>
 
@@ -93,6 +109,8 @@ export const Aside = (props) => {
                         <span>
                             <small>Especificações</small> 3: Projeto: Next.js App
                         </span>
+                        <FontAwesomeIcon icon={faCheckCircle} />
+
                     </CustomLink>
                 </li>
 
@@ -101,6 +119,8 @@ export const Aside = (props) => {
                         <span>
                             <small>Especificações</small> 4: Projeto: Database
                         </span>
+                    <FontAwesomeIcon icon={faBattery2} />
+
                     </CustomLink>
                 </li>
 
@@ -109,6 +129,8 @@ export const Aside = (props) => {
                         <span>
                             <small>Especificações</small> 10: Projeto:  Next.js + TypeScript
                         </span>
+                    <FontAwesomeIcon icon={faBattery4} />
+
                     </CustomLink>
                 </li>
 
@@ -117,6 +139,8 @@ export const Aside = (props) => {
                         <span>
                             Employment Sheet: Job Searching 
                         </span>
+                    <FontAwesomeIcon icon={faBattery0} />
+
                     </CustomLink>
                 </li>
 
@@ -125,6 +149,8 @@ export const Aside = (props) => {
                         <span>
                             Job applying: Job Searching 
                         </span>
+                    <FontAwesomeIcon icon={faBattery0} />
+
                     </CustomLink>
                 </li>
 
@@ -133,6 +159,8 @@ export const Aside = (props) => {
                         <span>
                             <small>Especificações</small> 5: Projeto: Exress API
                         </span>
+                    <FontAwesomeIcon icon={faBattery0} />
+
                     </CustomLink>
                 </li>
 
@@ -141,6 +169,8 @@ export const Aside = (props) => {
                         <span>
                             <small>Especificações</small> 6: Projeto: Conteinteirize API
                         </span>
+                    <FontAwesomeIcon icon={faBattery0} />
+
                     </CustomLink>
                 </li>
 
@@ -149,6 +179,8 @@ export const Aside = (props) => {
                         <span>
                             <small>Desafios Técnicos</small>: Selection Process Preparation 
                         </span>
+                        <FontAwesomeIcon icon={faCheckCircle} />
+
                     </CustomLink>
                 </li>
 
@@ -157,6 +189,8 @@ export const Aside = (props) => {
                         <span>
                             <small>Especificações</small> 7: Projeto: Deploy na Cloud
                         </span>
+                    <FontAwesomeIcon icon={faBattery0} />
+
                     </CustomLink>
                 </li>
 
@@ -165,6 +199,8 @@ export const Aside = (props) => {
                         <span>
                             <small>Especificações</small> 8: Projeto: Lambda no ar
                         </span>
+                    <FontAwesomeIcon icon={faBattery0} />
+
                     </CustomLink>
                 </li>
 
@@ -173,6 +209,8 @@ export const Aside = (props) => {
                         <span>
                             Tarefa: E.V.P.
                         </span>
+                        <FontAwesomeIcon icon={faCheckCircle} />
+
                     </CustomLink>
                 </li>
                 
@@ -189,6 +227,8 @@ export const Aside = (props) => {
                         <span>
                             <small>Especificações</small> 9: Projeto: Next.js + TypeScript + API
                         </span>
+                    <FontAwesomeIcon icon={faBattery4} />
+
                     </CustomLink>
                 </li>
                 

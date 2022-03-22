@@ -26,17 +26,18 @@ export const Atividade5 = (props) => {
                             React.js
                         </blockquote>
                         <blockquote>
-                            HTML + CSS
-                        </blockquote>
-                        <blockquote>
-                            SASS - SCSS
-                        </blockquote>
-                        <blockquote>
                             JavaScript
                         </blockquote>
                         <blockquote>
                             TypeScript
                         </blockquote>
+                        <blockquote>
+                            HTML + CSS
+                        </blockquote>
+                        <blockquote>
+                            SASS - SCSS
+                        </blockquote>
+                        
                         <blockquote>
                             Node
                         </blockquote>
@@ -50,26 +51,43 @@ export const Atividade5 = (props) => {
                     <li>
                         I can work with
                         <blockquote>
-                            Data Base
+                            Responsive applications
                         </blockquote>
-                        <blockquote>
-                            VScode
-                        </blockquote>
-                        <blockquote>
-                            Linux
-                        </blockquote>
-                        <blockquote>
-                            Windows with WSL
-                        </blockquote>
-                        <blockquote>
-                            Git and Github
-                        </blockquote>
+                        
                         <blockquote>
                             Apache
                         </blockquote>
+
                         <blockquote>
                             Sequelize
                         </blockquote>
+
+                        <blockquote>
+                            Linux
+                        </blockquote>
+
+                        <blockquote>
+                            Windows with WSL
+                        </blockquote>
+                        
+                        <blockquote>
+                            VScode
+                        </blockquote>
+                     
+                        <blockquote>
+                            Git and Github
+                        </blockquote>
+
+                        <blockquote>
+                            Fontawesome
+                        </blockquote>
+
+                        <blockquote>
+                            Chakra - MUI
+                        </blockquote>
+
+
+
                     </li>
                 </ul>
                 <ul>
@@ -90,6 +108,14 @@ export const Atividade5 = (props) => {
                         <blockquote>
                             Cloud Deploy
                         </blockquote>
+
+                        <blockquote>
+                            JavaScript
+                        </blockquote>
+                                             
+                        <blockquote>
+                            TypeScript
+                        </blockquote>
                         <blockquote>
                             FaaS
                         </blockquote>
@@ -99,10 +125,14 @@ export const Atividade5 = (props) => {
                     </li>
                 </ul>
             </div>
-            <h2>Formation</h2>
-            <p>Web Development Course at Awari School(2022-Brazil)</p>
-            <p>FrontEnd Basics at Digital innovation One(2021-Brazil)</p>
-            <p>Graduated in Drawing Licentiate (art teaching) at EMBAP(2010-Brazil) </p>
+            <div className='formation'>
+                <h2>Formation</h2>
+                
+                <p>Web Development Course at <a href='https://awari.com.br/'> Awari </a>School(2022-Brazil)</p>
+                <p>FrontEnd Basics at <a href='https://www.dio.me/'>DIO </a> Digital innovation One(2021-Brazil)</p>
+                <p>Graduated in Drawing Licentiate (art teaching) at <a href='http://www.embap.pr.gov.br/'>EMBAP</a> (2010-Brazil) </p>
+                <p>Product and Graphic Design Course at <a href='https://www.colegioensitec.com.br/'>ENSITE</a> (2006-Brazil) </p>
+            </div>
 
             <h3>Online Curriculum:</h3>
             <div className='flex-row'>
