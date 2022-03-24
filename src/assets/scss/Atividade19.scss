@@ -3,6 +3,7 @@
     width: 100%;
     background: rgb(29, 29, 29);
     color: white;
+    padding: 20px;
     .row-abilities{
         display: flex;
         justify-content: space-between;
@@ -22,7 +23,10 @@
 
     h2{
         text-align: left;
-        margin: 20px;
+        margin: 50px 20px;
+    }
+    h3{
+        margin-top: 50px;
     }
 
     table{

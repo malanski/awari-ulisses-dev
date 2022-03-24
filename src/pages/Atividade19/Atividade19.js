@@ -5,13 +5,8 @@ import '../../assets/scss/Atividade19.scss';
 
 export const Atividade19 = (props) => {
     return (
-
-
         <div className='atividade19'>
             <h1>Plano de Desenvolvimento de Carreira</h1>
-            
-            
-
             <h2>1. Sobre quem eu sou:</h2>
 
             <div className='row'>
@@ -137,7 +132,8 @@ export const Atividade19 = (props) => {
                         O que você NÃO sabe fazer?
                         <blockquote>
                             Outras linguagens fora JavaScript e TypeScript.<br/>
-                            Caricaturas<br/>
+                            Caricaturas.<br/>
+
 
                             Usar stories em redes sociais.<br/>
                             Vender, precificar, cantar agudo, empinar bicicleta.
@@ -168,7 +164,7 @@ export const Atividade19 = (props) => {
                     <li className='list-title'>
                         Como você deseja estar daqui 5,10, 20 anos?
                         <blockquote>
-                            <b>5 anos:</b> Aumentar cada vez mais o conhecimento e experiência e assim poder evoluir dentro de uma empresa ou ir me relocando profissionalmente.
+                            <b>5 anos:</b> Aumentar cada vez mais o conhecimento e experiência e assim poder evoluir para pleno dentro de uma empresa ou ir me realocando profissionalmente.
                             Morar na Europa. Não ter problemas financeiros.
                         </blockquote>
                         <blockquote>
@@ -182,7 +178,7 @@ export const Atividade19 = (props) => {
                     </li>
 
                 </ol>
-                <h3>2.1 O que fazer enquanto um profissional graduado:</h3>
+                <h2>2.1 O que fazer enquanto um profissional graduado:</h2>
                 
 
                 <ol>
@@ -198,9 +194,13 @@ export const Atividade19 = (props) => {
                         Quais as vantagens de cada área que você gosta?
                         <blockquote>
                             Técnologia: Alta demanda e versatilidade de aplicação.<br/>
+                            <br/>
                             Arte-visual: Realização pessoal.<br/>
+                            <br/>
                             Educação: Melhor forma de mudar o mundo.<br/>
+                            <br/>
                             Eletrônica: criar dispositivos e automações customizadas<br/>
+                            <br/>
                             Produção Musical: Realização pessoal.<br/>
 
                         </blockquote>
@@ -210,9 +210,13 @@ export const Atividade19 = (props) => {
                         Quais as desvantagens de cada área que você gosta?
                         <blockquote>
                             Técnologia: ingressar na área, exigencia de experiência e complexidade dos estudos.<br/>
+                            <br/>
                             Arte-visual: falta de fomento à culturar e mercado imaturo<br/>
+                            <br/>
                             Educação: baixo salário e sem possibilidade de progressão de carreira.<br/>
+                            <br/>
                             Eletrônica: complexidade e exigêcia de experiencia.<br/>
+                            <br/>
                             Produção Musical: industria fonográfica.<br/>
                         </blockquote>
                     </li>
@@ -231,7 +235,7 @@ export const Atividade19 = (props) => {
 
 
             <div className='formation'>
-                <h2>2. PREFERÊNCIAS</h2>
+                <h3>2.2 PREFERÊNCIAS</h3>
                 
                 <p>&emsp;&emsp;Aqui você deve colocar quais tipos e inserção de carreira você tem preferência (mínimo 1, máximo 3). <br/>
                 Justifique porque você escolheu tais áreas e discorre sobre os pontos fortes e fracos de sua escolha. <br/>
