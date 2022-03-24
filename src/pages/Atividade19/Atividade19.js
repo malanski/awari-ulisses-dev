@@ -47,37 +47,44 @@ export const Atividade19 = (props) => {
                     <li className='list-title'>
                         Quais os seus valores?
                         <blockquote>
-                            Amizade, igualdade, curiosidade
+                            Amizade, igualdade, curiosidade e dedicação/esforço.
                         </blockquote>
                     </li>
 
                     <li className='list-title'>
                         O que você gosta?
                         <blockquote>
+                            Construir algo que tenha varias camadas ou uma estruturas complexa como aplicações web, sites, imagens, animações, vídeos, musicas e tatuagens.<br/>
                             Musica: Radiohead, Gilberto Gil, Pearl Jam, Nação Zumbi, Sonic Youth, Piazzolla, Jamiroquai, de doom metal até Vaporwave<br/>
                             Desenho e ilustração, animação e filmes, jogos de PS1.<br/>
                             Parkour e artes marciais, bicicletas, caminhada na floresta.<br/>
-                            Café(com um puco de leite a açucar),comida oriental no geral, caqui fuiu, pastel de feira, melão e baunilha. 
+                            Café(com um puco de leite e açucar),comida oriental no geral, caqui fuiu, pastel de feira, melão e baunilha. 
                         </blockquote>
                     </li>
 
                     <li className='list-title'>
                         O que você não gosta?
                         <blockquote>
-                            Capital Inicial, coentro fresco, buchada e pratos do genero, a situação do Brasil e ver pessoas sendo mal tratadas. 
+                            Comunicação agressiva, falar sobre talento ou dom geralmente são um gatilho onde eu começo a falar que o que importa mesmo é o esforço, 
+                            encontrar motivação em cada obstáculo por gostar de fazer aquilo
+                            Capital Inicial, coentro fresco, buchada e pratos do genero, a situação do Brasil e ver pessoas sendo mal tratadas. <br/>
+                            Escapamento de moto barulhenta, misturar lixo organico com reciclável. 
                         </blockquote>
                     </li>
 
                     <li className='list-title'>
                         Como as pessoas a sua volta o definem?
                         <blockquote>
-                            Uma dadiva dos ninja.
+                            Pessoa tranquila mas que esta sempre fazendo alguma coisa manual e que fica feliz se tiver café.
                         </blockquote>
                     </li>
 
                     <li className='list-title'>
                         Quais são suas maiores qualidades?
                         <blockquote>
+                            Flexibilidade.<br/>
+                            Facilidade com linguas extrangeiras (inglês, frances e espanhol)<br/>
+                            Dominio e criatividade na produção artística.<br/>  
                             Ajudar os amigos ou tentar pelomenos.<br/>
                         </blockquote>
                     </li>
@@ -109,15 +116,19 @@ export const Atividade19 = (props) => {
                                     Desenvolver imagens com perspectiva, proporção humana e texturas realistas. 
                                 </li>
                                 <li>
-                                    Técnicas de desenho, pintura e escultura. Esninar história da arte. 
+                                    Técnicas de desenho, pintura e escultura. Esninar história da arte.
+                                    Aplicação e design de tatuagens.
+
                                 </li>
-                                <li>Me comunicar e ensinar adultos, adolescentes e crianças.</li>
+                                <li>Falar em públco. Me comunicar e ensinar adultos, adolescentes e crianças.</li>
                                 <li>
                                     Projeto e construção de objetos nos mais diversos materiais. 
                                 </li>
-                                <li>
+                                <li>Conceitos básicos de marcenaria.</li>
+                                <li>                                    
                                     Engenharia reversa em Imagens e Audio(composição e produção musical).
                                 </li>
+                                <li> Compor, gravar e produzir musicas, canções e trilhas sonoras.</li>
                             </ul>
                         </blockquote>
                     </li>
@@ -125,8 +136,8 @@ export const Atividade19 = (props) => {
                     <li className='list-title'>
                         O que você NÃO sabe fazer?
                         <blockquote>
-                            Outras linguagens fora JavaScript.<br/>
-                            React native.<br/>
+                            Outras linguagens fora JavaScript e TypeScript.<br/>
+                            Caricaturas<br/>
 
                             Usar stories em redes sociais.<br/>
                             Vender, precificar, cantar agudo, empinar bicicleta.
@@ -136,9 +147,9 @@ export const Atividade19 = (props) => {
                     <li className='list-title'>
                         O que você gostaria de aprender ou aperfeiçoar?
                         <blockquote>
-                            Especializações FrontEnd no geral como me aprofundar mais em React e Next.<br/>
-                            Segurança Digital<br/>
-                            Programação de jogos<br/>
+                            Especializações FrontEnd no geral como me aprofundar mais em React, Next e VUE.<br/>
+                            Segurança Digital.<br/>
+                            Programação de jogos e técnicas de animação.<br/>
                             C# , C++, PHP, Phyton, JavaScript Avançado.<br/>
                             Marketing
                         </blockquote>
@@ -147,7 +158,10 @@ export const Atividade19 = (props) => {
                     <li className='list-title'>
                         Como a sua futura profissão pode te deixar satisfeito?
                         <blockquote>
-                            Sendo majoritariamente no sistema remoto assim possibilitado que eu me desloque pra ficar mais perto da minha filha.
+                            Um trabalho no sistema remoto, assim possibilitado que eu me desloque pra ficar mais perto da minha filha.<br/>
+                            Onde possa me aperfeiçoar e aprender mais na área da tecnologia e da arte.<br/>
+                            Onde haja perspectiva de crescimento na carreira.<br/>
+                            Conhecer, entrar ou formar uma equipe de trabalho.
                         </blockquote>
                     </li>
 
