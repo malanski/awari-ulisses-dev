@@ -3,9 +3,54 @@
     width: 100%;
     background: rgb(29, 29, 29);
     color: white;
+    .paragraf {
+        width: 80%;
+        margin: 10%;
+        text-align: justify;
+        font-size: 18px;
+    }
+    a {
+        text-decoration: none;
+        color: rgb(209, 255, 255);
+        font-weight: 900;
+    }
+    ul{
+        list-style: none;
+        margin: 0;
+        li{
+            text-transform: uppercase;
+            color: rgb(203, 253, 101);
+            font-weight: 900;
+            font-size: 22px;
+        }
+    }
     .row-abilities{
         display: flex;
         justify-content: space-between;
+        width: 90%;
+        margin-left: 5%;
+        .cartao{
+            border: 2px solid white;
+            border-radius: 20px;
+            padding: 20px;
+            margin-right: 15px;
+
+        }
+    }
+    blockquote{
+        font-size: 20px;
+
+        color: white;
+        text-transform: none;
+        text-align: center;
+        width: 80%;
+        padding: 10px 0px;
+        border-radius: 20px;
+        transition: all ease-in-out 0.4s;
+    }
+    blockquote:hover{
+        background-color: black;
+
     }
 
     
@@ -14,13 +59,21 @@
     }
     .formation{
         width: 80%;
+        margin-top: 40px;
         margin-left: 10%;
         text-align: left;
+        font-size: 18px;
+
     }
 
     h2{
         text-align: left;
         margin: 20px;
+    }
+    h3{
+        margin-top: 0;
+        text-transform: uppercase;
+        font-size: 25px;
     }
 
     ul{
@@ -31,15 +84,24 @@
         color: greenyellow;
         font-size: larger;
     }
+    .devicon{
+        margin: 20px;
+        img{
+            margin-left: 5px;
+        }
+    }
     .flex-row {
         display: flex;
         justify-content: space-around;
+        width: 80%;
+        margin-left: 10%;
         
         .btn-solution{
             background: black;
             border: 1px solid greenyellow;
             border-radius: 5px;
             padding: 10px 20px;
+            width: 20vw;
             a{
                 color: white;
                 text-decoration: none;

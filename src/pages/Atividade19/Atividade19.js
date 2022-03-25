@@ -7,6 +7,7 @@ export const Atividade19 = (props) => {
     return (
         <div className='atividade19'>
             <h1>Plano de Desenvolvimento de Carreira</h1>
+            
             <h2>1. Sobre quem eu sou:</h2>
 
             <div className='row'>
@@ -237,9 +238,11 @@ export const Atividade19 = (props) => {
             <div className='formation'>
                 <h3>2.2 PREFERÊNCIAS</h3>
                 
-                <p>&emsp;&emsp;Aqui você deve colocar quais tipos e inserção de carreira você tem preferência (mínimo 1, máximo 3). <br/>
-                Justifique porque você escolheu tais áreas e discorre sobre os pontos fortes e fracos de sua escolha. <br/>
-                Nesta parte eu preciso perceber que você conhece bem a área que escolheu, tem uma visão realista da mesma e que tem condições de lidar com as vantagens e impeditivos da sua escolha.</p>
+                <p>&emsp;&emsp;Aqui você deve colocar quais tipos de inserção de carreira você tem preferência (mínimo 1, máximo 3). <br/>
+                Justifique porque você escolheu tais áreas e discorra sobre os pontos fortes e fracos de sua escolha. <br/>
+                Nesta parte eu preciso perceber que você conhece bem a área que escolheu, 
+                tem uma visão realista da mesma e que tem condições de lidar com as vantagens e 
+                impeditivos da sua escolha.</p>
 
                 <h4>Preferência 1: </h4>
 
@@ -256,11 +259,11 @@ export const Atividade19 = (props) => {
 
                     <tbody>
                         <tr>
-                            <td>. </td>
-                            <td>. </td>
-                            <td>. </td>
-                            <td>. </td>
-                            <td>. </td>
+                            <td className='titulotd'><b>FrontEnd Dev</b> </td>
+                            <td>Alta demanda do mercado </td>
+                            <td>Crescimento, salário  </td>
+                            <td>Competitividae x complexidade </td>
+                            <td>Trabalho com tanta demanda que não permite evoluir e aprender novas técnologias</td>
                         </tr>
                     </tbody>
                 </table>
@@ -281,15 +284,14 @@ export const Atividade19 = (props) => {
 
                     <tbody>
                         <tr>
-                            <td>. </td>
-                            <td>. </td>
-                            <td>. </td>
-                            <td>. </td>
-                            <td>. </td>
+                            <td className='titulotd'><b>Designer</b> </td>
+                            <td>Ter abilidades artísticas e de desenvolvimento web </td>
+                            <td>Relevante remuneração </td>
+                            <td>Mercado imaturo não tem costume de investir no design </td>
+                            <td>Dificuldade de entrar no mercado </td>
                         </tr>
                     </tbody>
                 </table>
-
 
                 <h4>Preferência 3: </h4>
 
@@ -306,14 +308,66 @@ export const Atividade19 = (props) => {
 
                     <tbody>
                         <tr>
-                            <td>. </td>
-                            <td>. </td>
-                            <td>. </td>
-                            <td>. </td>
-                            <td>. </td>
+                            <td className='titulotd'><b>Professor de desenvolvimento web Básico</b></td>
+                            <td>Diferencial de já ter experiência com Educação e ensino de adultos, jovens e crianças. </td>
+                            <td>Tem mais demanda do que Arte na educação e abre portas pra educação particular. </td>
+                            <td>Por hora estou no nivel junior assim não vou poder aprofundar tanto nos contéudos. </td>
+                            <td>Estar condicionado a somente dar aulas basicas de programação FrontEnd, estar em desvantagem em comparação com um dev pleno ou senior </td>
                         </tr>
                     </tbody>
                 </table>
+
+
+
+                <h4>Preferência 4: </h4>
+
+                <table className='preferencias'>
+                    <thead>
+                        <tr>
+                            <th>Atividade</th>
+                            <th>Justificativa</th>
+                            <th><span>Pontos Fortes</span></th>
+                            <th><span>Pontos Fracos</span></th>
+                            <th><span>Possíveis Empecilhos</span></th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td className='titulotd'><b>Tattoo artist</b> </td>
+                            <td>Ter experiência </td>
+                            <td>Relevante remuneração </td>
+                            <td>Gasto com materiais, periculosidade, insalubridade, trabalho complexo e pesado </td>
+                            <td>Lentidão em formar clientela </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <h4>Preferência 5: </h4>
+
+                <table className='preferencias'>
+                    <thead>
+                        <tr>
+                            <th>Atividade</th>
+                            <th>Justificativa</th>
+                            <th><span>Pontos Fortes</span></th>
+                            <th><span>Pontos Fracos</span></th>
+                            <th><span>Possíveis Empecilhos</span></th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td className='titulotd'><b>Professor de Arte (Desenho)</b></td>
+                            <td>Ja ter experiência </td>
+                            <td>Alto impacto social </td>
+                            <td>Baixo salário e péssimas condição de trabalho </td>
+                            <td>A não obrigatoriedade no ensino de arte expalhar mais e acabar com a demanda de trabalho. </td>
+                        </tr>
+                    </tbody>
+                </table>
+
             </div>
 
 
@@ -321,9 +375,9 @@ export const Atividade19 = (props) => {
                 <h2>3. O plano de desenvolvimento de carreira</h2>
                 
                 <p>
-                Nesta parte você irá colocar três planos de carreira (A, B e C), em ordem de prioridade, a serem realizados. <br/>
+                &ensp;&ensp;&ensp;Nesta parte você irá colocar três planos de carreira (A, B e C), em ordem de prioridade, a serem realizados. <br/>
                 Pense em passos operacionais, analise a viabilidade da meta e veja quais as possíveis formas de alcançar o que deseja para a sua carreira.<br/>
-                Pense em questões financeiras e de tempo, por exemplo. Considere todas as possibilidades e seja o mais minucioso possível nos passos e analise cada pró e contra. 
+                &ensp;&ensp;&ensp;Pense em questões financeiras e de tempo, por exemplo. Considere todas as possibilidades e seja o mais minucioso possível nos passos e analise cada pró e contra. 
 
                 </p>
 
@@ -344,12 +398,14 @@ export const Atividade19 = (props) => {
 
                     <tbody>
                         <tr>
-                            <td>. </td>
-                            <td>. </td>
-                            <td>. </td>
-                            <td>. </td>
-                            <td>. </td>
-                            <td>. </td>
+                            <td>Estudar FrontEnd + BackEnd, ter Mentoria sobre paginação em API REST</td>
+                            <td>Aplicar em vagas de emprego FrontEnd. Planejar o projeto final. <br/>
+                                Estudar Cloud, GraphQL </td>
+                            <td>Estar finalizando o trabalho final da Awari. Estudar Docker Composer, AWS. </td>
+                            <td>Estar trabalhando como web dev. No mínimo 2800R$.<br/>
+                                Estudar PHP, Phyton, LUA, IBM Fundamentals Cyber Security </td>
+                            <td>Ter trabalhado o suficiente pra poder visitar minha filha na Europa. </td>
+                            <td>Poder evoluir dentro da empresa/equipe ou poder escolher melhores oportunidades de crescimento. </td>
                         </tr>
                     </tbody>
                 </table>

@@ -14,8 +14,8 @@
         width: 90%;
     }
     .formation{
-        width: 80%;
-        margin-left: 10%;
+        width: 90%;
+        margin-left: 5%;
         margin-bottom: 10%;
         margin-top: 10%;
         text-align: left;
@@ -28,27 +28,44 @@
     h3{
         margin-top: 50px;
     }
+    h4{
+        margin-top: 50px;
+    }
 
     table{
         width: 100%;
         border: 2px solid white;
         padding: 3px;
         border-radius: 5px;
+        
         th{
             border-right: 2px solid white;
-
+            padding: 10px;
+            text-align: center;
+            width: 20%;
         }
         th:last-child{
             border-right: 0px ;
 
         }
+        
         td:last-child{
             border-right: 0px ;
 
         }
         td{
             border-right: 2px solid white;
+            border-top: 2px solid white;
+            padding: 10px;
+            text-align: center;
         }
+        .titulotd{
+            color: greenyellow;
+            font-size: 20px;
+        }
+    }
+    .plano th {
+        width: 16%;
     }
 
     ol{
@@ -68,6 +85,9 @@
     .green{
         color: greenyellow;
         font-size: larger;
+    }
+    .preferencias{
+        margin-top: 20px;
     }
     .flex-row {
         display: flex;

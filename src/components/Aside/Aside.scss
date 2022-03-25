@@ -12,6 +12,8 @@ aside{
     }
     a{
         display: block;
+        padding: 5px;
+
 
         text-decoration: none;
         color: white;
@@ -34,10 +36,10 @@ aside{
 
             a{
                 display: block;
-
+                font-size: 18px;
                 text-decoration: none;
                 color: white;
-
+                margin-top: 10px;
             }
         }
     }
