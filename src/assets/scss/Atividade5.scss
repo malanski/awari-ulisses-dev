@@ -27,9 +27,10 @@
     .row-abilities{
         display: flex;
         justify-content: space-between;
-        width: 90%;
-        margin-left: 5%;
+        width: calc(100% - 5px);
+        margin-left: 5px;
         .cartao{
+            width: 100%;
             border: 2px solid white;
             border-radius: 20px;
             padding: 20px;
@@ -38,12 +39,13 @@
         }
     }
     blockquote{
+        margin: 2px;
         font-size: 20px;
 
         color: white;
         text-transform: none;
         text-align: center;
-        width: 80%;
+        width: 100%;
         padding: 10px 0px;
         border-radius: 20px;
         transition: all ease-in-out 0.4s;
@@ -63,6 +65,20 @@
         margin-left: 10%;
         text-align: left;
         font-size: 18px;
+        .certificate{
+            border: 1px solid white;
+            border-radius: 5px;
+            padding: 5px;
+            margin-top: 30px;
+            .branco{
+                background-color: white;
+                border-radius: 5px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+        }
 
     }
 

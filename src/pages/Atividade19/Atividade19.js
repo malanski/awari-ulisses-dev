@@ -399,25 +399,33 @@ export const Atividade19 = (props) => {
                     <tbody>
                         <tr>
                             <td>Estudar FrontEnd + BackEnd, ter Mentoria sobre paginação em API REST</td>
+
                             <td>Aplicar em vagas de emprego FrontEnd. Planejar o projeto final. <br/>
+
                                 Estudar Cloud, GraphQL </td>
+
                             <td>Estar finalizando o trabalho final da Awari. Estudar Docker Composer, AWS. </td>
+
                             <td>Estar trabalhando como web dev. No mínimo 2800R$.<br/>
+
                                 Estudar PHP, Phyton, LUA, IBM Fundamentals Cyber Security </td>
+
                             <td>Ter trabalhado o suficiente pra poder visitar minha filha na Europa. </td>
-                            <td>Poder evoluir dentro da empresa/equipe ou poder escolher melhores oportunidades de crescimento. </td>
+
+                            <td>Poder evoluir dentro da empresa/equipe ou poder escolher melhores oportunidades
+                                 de crescimento. </td>
                         </tr>
                     </tbody>
                 </table>
 
-                <h4>Plano B: </h4>
+                <h4>Plano B: 27/03/2022 </h4>
 
                 <table className='plano'>
                     <thead>
                         <tr>
-                            <th>Hoje</th>
-                            <th>Em uma semana</th>
-                            <th>Em um mês</th>
+                            <th>Esses dias</th>
+                            <th>Em 15 dias</th>
+                            <th>Em dois mês</th>
                             <th>Em seis meses</th>
                             <th>Em um ano</th>
                             <th>Em dois anos</th>
@@ -427,12 +435,77 @@ export const Atividade19 = (props) => {
 
                     <tbody>
                         <tr>
-                            <td>. </td>
-                            <td>. </td>
-                            <td>. </td>
-                            <td>. </td>
-                            <td>. </td>
-                            <td>. </td>
+                            <td>Preparar curriculo em PDF e HTML.<br/>
+                                <br/>
+                                Estar em dia com as atividades de carreira.
+                            </td>
+
+                            <td>Ter me aplicado em varias vagas de TI e FrontEnd<br/>
+                                <br/>
+                                Planejar projeto final da Awari.<br/>
+                                <br/>
+                                Estudar:<br/>
+                                SQL, Docker Composer.
+                            </td>
+
+                            <td>Usar feedback de algum desses processos seletivos pra melhorar alguma coisa.<br/>
+                                
+                                <br/>
+                                Aplicar em vagas no exterior. Aprefeiçoar perfil em inglês.<br/>
+                                <br/>
+                                Estudar:<br/>
+                                JavaScript, AWS, Cloud.<br/>
+                                <br/>
+                                Estar finalizando e entregando o trabalho final do Curso Awari.<br/>
+                            </td>
+                            
+                            <td>
+                                Estar trabalhando como web dev.
+                                <br/>Salário no mínimo 2800R$.<br/>
+                                <br/>
+                                Finalizando a garantia da Awari.<br/>
+                                <br/>
+                                <br/>
+                                Estudar:<br/>
+                                Avançado em JavaScript, aprofundar no TypeScript, introdução ao PHP. <br/>
+                                <br/>
+                                Estudar lingua francesa.<br/>                               
+                                <br/>
+                                Começar curso: IBM Fundamentals Cyber Security.<br/>
+                                
+                            </td>
+
+                            <td>
+                                De preferência em um trabalho remoto pra poder visitar minha filha na Europa.<br/>
+                                <br/>
+                                Tentar bolsa de estudos na Europa e continuar me aplicando a vagas no exterior.<br/>
+                                <br/>
+                                Obter certificado de proficiência na lingua inglesa.
+                                <br/>
+                                Criar projetos de Games experimentais.<br/>
+                                <br/>
+                                Estudar:<br/>
+                                introdução ao LUA, introdução ao Phyton.<br/>
+                                <br/>
+                                                           
+                                Começar curso: CSS50 open course de Harvard.
+                                
+                            </td>
+
+                            <td>
+                            Poder evoluir dentro da empresa/equipe ou poder escolher melhores oportunidades de crescimento.<br/>
+                            <br/>
+                            Alcançar nivel Pleno em JavaScript.<br/>
+                            <br/>
+                            Adquirir equipamentos de alta qualidade.<br/>
+                            <br/>
+                            Estudar:<br/>
+                            Arduino, C# ou C++<br/>
+                            <br/>
+                            Começar curso: ++ Avançado FrontEnd ou FullStack.<br/>
+                            
+
+                            </td>
                         </tr>
                     </tbody>
                 </table>
