@@ -12,32 +12,39 @@ export const Home = (props) => {
                     <ol>
                         <li>
                             Reactjs
+                            <blockquote>Routes, State, Axios, style libraries, import, deploy</blockquote>
                         </li>
 
                         <li>
                             Nextjs
-                        </li>
-
-                        <li>
-                            SASS
-                        </li>
-
-                        <li>
-                            JavaScript
+                            <blockquote>Pages/, useSWR, deploy</blockquote>
                         </li>
 
                         <li>
                             HTML5
+                            <blockquote>Tags, Elements, Semantics, W3C validation</blockquote>
                         </li>
 
                         <li>
                             CSS3
+                            <blockquote>SASS, SCSS, Id's, Classes, variables, calc, animation, Responsive layouts</blockquote>                            
                         </li>
 
                         <li>
-                            Git e Github
+                            JavaScript
+                            <blockquote>Basics on Functions, fetch, Classes, Variables. </blockquote>                      
                         </li>
-                        <li>Chakra - MUI - Fontawesome</li>
+
+                        
+
+                        <li>
+                            Git, Github, gitlab
+                            <blockquote>add, commit, push, pull, reset, revert, merge, PullRequest</blockquote>
+                        </li>
+
+                        <li>Chakra - MUI - Fontawesome
+                            <blockquote>Use on React, Next and Vanilla applications </blockquote>
+                        </li>
 
                     
                     </ol>
@@ -46,35 +53,34 @@ export const Home = (props) => {
                 <div className='conteudo backend'>
                     <p>Backend</p>
                     <ol>
+                        <li>API
+                            <blockquote>Fetch, Axios, SWR, GraphQL</blockquote>
+                        </li>
                         <li>
                             Node
+                            <blockquote>npm, npx</blockquote>
                         </li>
 
                         <li>
                             SQL
-                        </li>
+                            <blockquote>C.R.U.D. PostgreSQL, SQlite, Dbeaver</blockquote>
 
-                        <li>SQlite </li>
-
-                        <li>PostgreSQL </li>
-
-                        <li>
-                            Dbeaver
                         </li>
 
                         <li>
-                            AWS
+                            Deploy
+                            <blockquote>Heroku, Gh-pages (github pages), Vercel</blockquote>
                         </li>
 
                         <li>
-                            Apache
+                            Server
+                                <blockquote>Virtual Host, APACHE</blockquote>
                         </li>
 
                         <li>
-                            Heroku
+                            Docker Composer
+                            <blockquote>GPU, Networking, Production</blockquote>
                         </li>
-
-
 
                     </ol>
                 </div>
@@ -98,7 +104,9 @@ export const Home = (props) => {
                             SEO
                         </li>
 
-                        <li>Cloud </li>
+                        <li>
+                            AWS
+                        </li>
                         
                         <li>
                             Redes

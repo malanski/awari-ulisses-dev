@@ -1,18 +1,18 @@
 
 .atividade19{
     width: 100%;
-    background: rgb(29, 29, 29);
+    background-color: rgb(29, 29, 29);
     color: white;
     padding: 20px;
     .row-abilities{
         display: flex;
         justify-content: space-between;
     }
-
     
     .activity-image{
         width: 90%;
     }
+
     .formation{
         width: 90%;
         margin-left: 5%;
@@ -25,9 +25,11 @@
         text-align: left;
         margin: 50px 20px;
     }
+
     h3{
         margin-top: 50px;
     }
+
     h4{
         margin-top: 50px;
     }
@@ -36,8 +38,7 @@
         width: 100%;
         border: 2px solid white;
         padding: 3px;
-        border-radius: 5px;
-        
+        border-radius: 5px;        
         th{
             border-right: 2px solid white;
             padding: 10px;
@@ -45,8 +46,7 @@
             width: 20%;
         }
         th:last-child{
-            border-right: 0px ;
-
+            border-right: 0px;
         }
         
         td:last-child{
@@ -64,6 +64,10 @@
             font-size: 20px;
         }
     }
+    .plano{
+        background-color: black;
+        margin-bottom: 20px;
+    }
     .plano th {
         width: 16%;
     }
@@ -74,6 +78,11 @@
         .list-title{
             font-weight: bold;
             margin: 3px;
+            border-radius: 5px;
+            border: 1px solid white;
+            margin: 20px;
+            padding: 5px;
+
             blockquote{
                 margin-bottom: 10px;
                 line-height: 25px;
