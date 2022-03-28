@@ -260,10 +260,32 @@ export const Atividade19 = (props) => {
                     <tbody>
                         <tr>
                             <td className='titulotd'><b>FrontEnd Dev</b> </td>
-                            <td>Alta demanda do mercado </td>
-                            <td>Crescimento, salário  </td>
-                            <td>Competitividae x complexidade </td>
-                            <td>Trabalho com tanta demanda que não permite evoluir e aprender novas técnologias</td>
+                            <td>
+                                Alta demanda do mercado.<br/>
+                                <br/>
+                                Leque de atuação amplo.<br/>
+                                <br/>
+                                Poder adaptar complementar com minha formação artística.<br/>
+                                <br/>
+                                Envolver-se em equipes com e profissionais de outras áreas dentro ou fora da tecnologia.
+                            </td>
+                            <td>
+                                Possibilidade de crescimento.<br/>
+                                <br/>
+                                Conectar-se com o mundo atravéz de projetos open source.<br/>
+                                <br/>
+                                Mair chance de contratação no exterior<br/>
+                                <br/>
+                                Não depende de formação Acadêmica.<br/>
+                                Maiores salários.
+                            </td>
+                            <td>Competitividade depende de você estar sempre um passo à frente.<br/>
+                                <br/> 
+                                Alta complexidade do estudo.<br/>
+                            </td>
+                            <td>Trabalho com tanta demanda que não permite evoluir e ou aprender novas técnologias.<br/>
+                                <br/>
+                            Precisar fazer outros cursos caros.</td>
                         </tr>
                     </tbody>
                 </table>
@@ -285,10 +307,26 @@ export const Atividade19 = (props) => {
                     <tbody>
                         <tr>
                             <td className='titulotd'><b>Designer</b> </td>
-                            <td>Ter abilidades artísticas e de desenvolvimento web </td>
-                            <td>Relevante remuneração </td>
-                            <td>Mercado imaturo não tem costume de investir no design </td>
-                            <td>Dificuldade de entrar no mercado </td>
+                                <td>Ter formação, experiência e abilidades artísticas.<br/>
+                                <br/>
+                                Desenvolvimento web frontEnd.<br/>
+                                <br/>
+                                Design de Games, design de proteses automatizadas.
+                            </td>
+                            <td>
+                                Relevante remuneração.<br/>
+                                <br/>
+                                Trabalho criativo e artístico.
+                            </td>
+                            <td>
+                                Mercado imaturo não tem costume de investir no design.<br/>
+                                <br/>
+                                Precisar fazer outro curso especialista</td>
+                            <td>
+                                Precisa de experiência e notoriedade pra entrar no mercado.<br/>
+                                <br/>
+                                Vagas são mais raras na demanda de criação artística.
+                            </td>
                         </tr>
                     </tbody>
                 </table>
@@ -308,11 +346,29 @@ export const Atividade19 = (props) => {
 
                     <tbody>
                         <tr>
-                            <td className='titulotd'><b>Professor de desenvolvimento web Básico</b></td>
-                            <td>Diferencial de já ter experiência com Educação e ensino de adultos, jovens e crianças. </td>
-                            <td>Tem mais demanda do que Arte na educação e abre portas pra educação particular. </td>
-                            <td>Por hora estou no nivel junior assim não vou poder aprofundar tanto nos contéudos. </td>
-                            <td>Estar condicionado a somente dar aulas basicas de programação FrontEnd, estar em desvantagem em comparação com um dev pleno ou senior </td>
+                            <td className='titulotd'><b>Professor de desenvolvimento web Básico - produtor de conteúdo didático</b></td>
+                            <td>
+                                Diferencial de já ter experiência com Educação e ensino de adultos, jovens e crianças.<br/>
+                                <br/>
+                                Saber editar videos e usar fundo chroma key.                            
+                            </td>
+                            <td>
+                                Tem mais demanda do que Arte na educação e abre portas pra educação particular.<br/>
+                                <br/>
+                                Saber preparar aulas, montar material didático. 
+                            </td>
+                            <td>
+                                Por hora estou no nivel junior assim não vou poder aprofundar tanto nos contéudos 
+                                e as aulas vao ser inicialmente releituras e recortes de aulas de outras pessoas.<br/>
+                                <br/>
+                                Precisar de equipamento de qualidade para gravar e translitir aulas.<br/>
+
+                            </td>
+                            <td>
+                                Estar condicionado a somente dar aulas basicas de programação FrontEnd.<br/>
+                                <br/>
+                                Estar em desvantagem em comparação com um dev pleno ou senior.
+                            </td>
                         </tr>
                     </tbody>
                 </table>
@@ -335,10 +391,14 @@ export const Atividade19 = (props) => {
                     <tbody>
                         <tr>
                             <td className='titulotd'><b>Tattoo artist</b> </td>
-                            <td>Ter experiência </td>
-                            <td>Relevante remuneração </td>
-                            <td>Gasto com materiais, periculosidade, insalubridade, trabalho complexo e pesado </td>
-                            <td>Lentidão em formar clientela </td>
+                            <td>Ter experiência<br/>
+                                Ter material.  </td>
+                            <td>Relevante remuneração, ser um trabalho criativo e artístico </td>
+                            <td>Gasto com materiais, periculosidade, insalubridade.<br/>
+                            Trabalho complexo e pesado.<br/>
+                                Clientela limitada e baixa aceitação por questões culturais.</td>
+                            <td>Lentidão em formar clientela. <br/>
+                            Sofrer preconceito por causa da tatuagem em sí. </td>
                         </tr>
                     </tbody>
                 </table>
@@ -360,10 +420,21 @@ export const Atividade19 = (props) => {
                     <tbody>
                         <tr>
                             <td className='titulotd'><b>Professor de Arte (Desenho)</b></td>
-                            <td>Ja ter experiência </td>
-                            <td>Alto impacto social </td>
-                            <td>Baixo salário e péssimas condição de trabalho </td>
-                            <td>A não obrigatoriedade no ensino de arte expalhar mais e acabar com a demanda de trabalho. </td>
+                            <td>
+                                Recentemente houve aumento de salário.<br/>
+                                <br/>
+                                Ja ter Diploma e 7 anos de experiência.
+                            </td>
+                            <td>Alto impacto social, </td>
+                            <td>
+                                Baixo salário.<br/>
+                                <br/>
+                                Péssimas condição de trabalho </td>
+                            <td>
+                                A não obrigatoriedade no ensino de arte expalhar mais e acabar com a demanda de trabalho.<br/>
+                                <br/>
+                                Assim como a gratificação de 800 para 40h/aula que aumentou o salário q pode acontecer de  ser removida por nao fazer parte do salario base.
+                            </td>
                         </tr>
                     </tbody>
                 </table>
@@ -381,44 +452,7 @@ export const Atividade19 = (props) => {
 
                 </p>
 
-                <h4>Plano A: </h4>
-
-                <table className='plano'>
-                    <thead>
-                        <tr>
-                            <th>Hoje</th>
-                            <th>Em uma semana</th>
-                            <th>Em um mês</th>
-                            <th>Em seis meses</th>
-                            <th>Em um ano</th>
-                            <th>Em dois anos</th>
-
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>Estudar FrontEnd + BackEnd, ter Mentoria sobre paginação em API REST</td>
-
-                            <td>Aplicar em vagas de emprego FrontEnd. Planejar o projeto final. <br/>
-
-                                Estudar Cloud, GraphQL </td>
-
-                            <td>Estar finalizando o trabalho final da Awari. Estudar Docker Composer, AWS. </td>
-
-                            <td>Estar trabalhando como web dev. No mínimo 2800R$.<br/>
-
-                                Estudar PHP, Phyton, LUA, IBM Fundamentals Cyber Security </td>
-
-                            <td>Ter trabalhado o suficiente pra poder visitar minha filha na Europa. </td>
-
-                            <td>Poder evoluir dentro da empresa/equipe ou poder escolher melhores oportunidades
-                                 de crescimento. </td>
-                        </tr>
-                    </tbody>
-                </table>
-
-                <h4>Plano B: 27/03/2022 </h4>
+                <h4 className='planotitle'>Plano A: 27/03/2022 </h4>
 
                 <table className='plano'>
                     <thead>
@@ -435,12 +469,14 @@ export const Atividade19 = (props) => {
 
                     <tbody>
                         <tr>
-                            <td>Preparar curriculo em PDF e HTML.<br/>
+                            <td>
+                                Preparar curriculo em PDF e HTML.<br/>
                                 <br/>
                                 Estar em dia com as atividades de carreira.
                             </td>
 
-                            <td>Ter me aplicado em varias vagas de TI e FrontEnd<br/>
+                            <td>
+                                Ter me aplicado em varias vagas de TI e FrontEnd<br/>
                                 <br/>
                                 Planejar projeto final da Awari.<br/>
                                 <br/>
@@ -448,8 +484,8 @@ export const Atividade19 = (props) => {
                                 SQL, Docker Composer.
                             </td>
 
-                            <td>Usar feedback de algum desses processos seletivos pra melhorar alguma coisa.<br/>
-                                
+                            <td>
+                                Usar feedback de algum desses processos seletivos pra melhorar alguma coisa.<br/>
                                 <br/>
                                 Aplicar em vagas no exterior. Aprefeiçoar perfil em inglês.<br/>
                                 <br/>
@@ -472,7 +508,6 @@ export const Atividade19 = (props) => {
                                 Estudar lingua francesa.<br/>                               
                                 <br/>
                                 Começar curso: IBM Fundamentals Cyber Security.<br/>
-                                
                             </td>
 
                             <td>
@@ -487,30 +522,58 @@ export const Atividade19 = (props) => {
                                 Estudar:<br/>
                                 introdução ao LUA, introdução ao Phyton.<br/>
                                 <br/>
-                                                           
                                 Começar curso: CSS50 open course de Harvard.
-                                
                             </td>
 
                             <td>
-                            Poder evoluir dentro da empresa/equipe ou poder escolher melhores oportunidades de crescimento.<br/>
-                            <br/>
-                            Alcançar nivel Pleno em JavaScript.<br/>
-                            <br/>
-                            Adquirir equipamentos de alta qualidade.<br/>
-                            <br/>
-                            Estudar:<br/>
-                            Arduino, C# ou C++<br/>
-                            <br/>
-                            Começar curso: ++ Avançado FrontEnd ou FullStack.<br/>
-                            
-
+                                Poder evoluir dentro da empresa/equipe ou poder escolher melhores oportunidades de crescimento.<br/>
+                                <br/>
+                                Alcançar nivel Pleno em JavaScript.<br/>
+                                <br/>
+                                Alcaçar nivel Intermediário em lingua francesa<br/>
+                                <br/>
+                                Adquirir computador de alta qualidade.<br/>
+                                <br/>
+                                Ter visto de trabalho europeu.<br/>
+                                <br/>                            
+                                Estudar:<br/>
+                                Arduino, C# ou C++.<br/>
+                                <br/>
+                                Começar curso: ++ Avançado FrontEnd ou FullStack.<br/>
                             </td>
                         </tr>
                     </tbody>
                 </table>
 
-                <h4>Plano C: </h4>
+                <h4 className='planotitle'>Plano B: </h4>
+
+                <table className='plano'>
+                    <thead>
+                        <tr>
+                            <th>Hoje</th>
+                            <th>Em uma semana</th>
+                            <th>Em um mês</th>
+                            <th>Em seis meses</th>
+                            <th>Em um ano</th>
+                            <th>Em dois anos</th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>. </td>
+                            <td>. </td>
+                            <td>. </td>
+                            <td>. </td>
+                            <td>. </td>
+                            <td>. </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <h4 className='planotitle'>Plano C: </h4>
 
                 <table className='plano'>
                     <thead>
