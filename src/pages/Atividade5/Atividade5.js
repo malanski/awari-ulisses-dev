@@ -6,6 +6,17 @@ import dio from '../../assets/images/dio.png';
 import diploma from '../../assets/images/diploma.png';
 import belas from '../../assets/images/belas.jpeg';
 import ensitec from '../../assets/images/ensitec.jpeg';
+import certificate from '../../assets/images/certificate.png';
+import seedmg from '../../assets/images/seedmg.png';
+import minas from '../../assets/images/minas.jpg';
+import seed from '../../assets/images/seed.png';
+import parana from '../../assets/images/parana.jpg';
+
+
+
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCertificate } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -125,41 +136,166 @@ export const Atividade5 = (props) => {
                 <h2>Study</h2>
                 
                 <div className='certificate'>
-                    <p>Web Development Course at <a href='https://awari.com.br/' title='Awari School of Technologies'> Awari </a> School (2022-Brazil)</p>
-                    <img height="80" width="80" alt='devicon' title='Bootstrap' src={awari}/>   
+                    <p className='flex-line'>
+                        Web Development Course at <a href='https://awari.com.br/' title='Awari School of Technologies'> Awari School </a> (2022-Brazil)
+                        <img height="80" width="100" alt='certificate' title='certificate' src={certificate}/>
+                    </p>
+                    
+                    <div className='flex-row school'>
+                        <img height="100" width="100" alt='AWARI' title='Awari School' src={awari}/>
+                        <p>
+                            Full Stack fundamentals.<br/>
+                            <br/>
+                            Create Reactjs and Nextjs applications, HTML, CSS, SASS, JavaScript, Nodejs, SQL, AWS, Cloud, TypeScript.<br/>
+                            <br/>
+                            VScode, Dbeaver, Sequelize, PostgreSQL, Git, Github.  
+                        </p>
+                    </div>
                     
                 </div>
                 
                 <div className='certificate'>
-                    <p>Programing language Fundamental III by Grasshopper (2022-Google)</p>
-                    <img height="80" width="80" alt='devicon' title='Bootstrap' src={grasshopper}/>   
+                    <p className='flex-line'>
+                        Programing language Fundamental III by <a href='https://www.google.com/' title='Google'>Grasshopper</a> (2022-Google)
+                        <img height="80" width="100" alt='certificate' title='certificate' src={certificate}/>
+                    </p>
+
+                    <div className='flex-row school'>
+                        <img height="100" width="100" alt='Grasshopper' title='Grasshopper' src={grasshopper}/>
+                        <p>
+                            
+                            Programing fundamentals.<br/>
+                            <br/>
+                            Basics on Variables, Functions, Array and Types.
+                        </p>
+                    </div>
                 </div>
 
                 <div className='certificate'>
-                    <p>FrontEnd Basics at <a href='https://www.dio.me/' title='Digital innovation One Technologies School'>DIO </a> Digital innovation One (2021-Brazil)</p>
-                    <img height="80" width="150" alt='devicon' title='Bootstrap' src={dio}/>   
+                
+                    <p className='flex-line'>
+                        FrontEnd Basics at Digital innovation One <a href='https://www.dio.me/' title='Digital innovation One Technologies School'>DIO </a> (2021-Brazil)
+                        <img height="80" width="100" alt='certificate' title='certificate' src={certificate}/>
+
+                    </p>
+                    <div className='flex-row school'>
+                        <img height="100" width="180" alt='DIO' title='Digital innovation one' src={dio}/>
+
+                        <p>
+                            Various basics courses.<br/>
+                            <br/>
+                            HTML5, CSS Flex-box, Bootstrap, VScode, Git, Github and Gitlab.
+                        </p>
+                    </div>
                 </div>
 
                 <div className='certificate'>
-                    <p>Graduated in Drawing Licentiate (art teaching) at <a href='http://www.embap.pr.gov.br/' title='Escola de Musica e Belas Artes do Paraná'> EMBAP </a> (2010-Brazil) </p>
+                    <p className='flex-line'>
+                        Graduated in Drawing Licentiate (art teaching) at <a href='http://www.embap.pr.gov.br/' title='Escola de Musica e Belas Artes do Paraná'> EMBAP </a>
+                        (2010-Brazil)
+                        <img height="80" width="120" alt='Diploma' title='Diploma' src={diploma}/>
+                    </p>
+
                     <div className='branco'>
-                        <img height="80" width="150" alt='devicon' title='Diploma' src={diploma}/>
-                        <img height="120" width="180" alt='devicon' title='Music and Fine arts School of Paraná' src={belas}/>   
+                        <img height="150" width="250" alt='EMBAP' title='Music and Fine arts School of Paraná' src={belas}/>   
+                        <p>
+                            Art education. Drawing teacher.<br/>
+                            <br/>
+                            Art history, Composition, Perspective, Sculpture, Techinical Drawing, Geometry, Human figure, Antropology, Painting.<br/>
+                            <br/>
+                            Psycology of Education, Pedagogic Metodology, Didatics, Drawing.  
+                        </p>
+                        
+
                     </div>
                     
 
                 </div>
 
                 <div className='certificate'>
-                    <p>Product and Graphic Design Course at <a href='https://www.colegioensitec.com.br/' title='ENSITEC Dom Bosco School Group'>ENSITEC</a> (2006-Brazil) </p>
+                    <p className='flex-line'>
+                        Product and Graphic Design Course at <a href='https://www.colegioensitec.com.br/' title='ENSITEC Dom Bosco School Group'>ENSITEC</a> (2006-Brazil)
+                        <img height="80" width="100" alt='certificate' title='certificate' src={certificate}/>
+                    </p>
 
                     <div className='branco'>
-                        <img height="80" width="150" alt='ensitec' title='Ensitec' src={ensitec}/>   
+                        <img height="100" width="180" alt='ensitec' title='Ensitec' src={ensitec}/>
+                        <p>
+                            Designer (Product + Graphic).<br/>
+                            <br/>
+                            Geometry, Techinical Drawing, Composition, Art History, AUTOCAD, Vectors (Adobe Illustrator), Adobe Photoshop.<br/>
+                            <br/>
+                            Project Metodology, Diagramation, 
+                        </p>
                     </div>
                 </div>
             </div>
 
             <div className='formation'>
+                <br/>
+
+                <h2>Experience</h2>
+
+                <div className='certificate'>
+                    <p className='flex-line'>
+                        <div>
+                            <small>Job title</small><br/>
+                            Art teacher 
+                        </div>
+                        <a href='https://www2.educacao.mg.gov.br/' title='Secretaria de Estado de Educação de Minas Gerais'>SEED-MG</a> 2014 - 2018
+                        <img height="80" width="100" alt='Public Education' title='Public Education' src={minas}/>
+                    </p>
+
+                    <div className='branco'>
+                        <img height="100" width="180" alt='ensitec' title='Ensitec' src={seedmg}/>
+                        <p className='exp'>
+                            Contract form: Designação (Designation).<br/>
+                            <br/>
+                            &ensp;&ensp;Ministrar aulas teóricas e práticas no ensino fundamental e médio, em escolas da rede pública da região da grande Belo Horizonte; acompanhar a produção da área educacional e cultural; planejar o curso, a disciplina e o projeto pedagógico.<br/>
+                            <br/>
+                            &ensp;&ensp;Avaliar o processo de ensino-aprendizagem; preparar aulas e participar de atividades institucionais. Modificar estratégias durante a aula para maior aprendizagem. 
+                            Corrigir provas, trabalhos e outros instrumentos de avaliação. Preencher diários de classe: frequência, conteúdos e avaliação. Incentivar a capacidade criadora dos alunos. <br/>
+                            <br/>
+                            &ensp;&ensp;Desenvolver as percepções estética, ética e política nos alunos. Desenvolver atividades relacionadas à produção artística contemporânea. Informar o aluno sobre a relevância do conhecimento para o desenvolvimento humano. <br/>
+                            <br/>
+                            &ensp;&ensp;Desenvolver atividades para compreensão política dos problemas da sociedade. Informar-se sobre as tendências relativas ao ensino do campo específico da arte. Relacionar-se com a comunidade escolar.<br/>
+                            <br/>
+                            &ensp;&ensp;Atentar para reações dos alunos na sala e estabelecer empatia eles. 
+                            Respeitar as diferenças culturais, econômicas e sociais da comunidade escolar. Administrar conflitos. Expressar-se com clareza. 
+                        </p>
+                    </div>
+                </div>
+
+                <div className='certificate'>
+                    <p className='flex-line'>
+                        <div>
+                            <small>Job title</small><br/>
+                            Art teacher 
+                        </div>
+                        <a href='https://www.educacao.pr.gov.br/' title='Secretaria de Estado de Educação de Minas Gerais'>SEED-PR</a> 2011 - 2013
+                        <img height="80" width="100" alt='Public Education' title='Public Education' src={parana}/>
+                    </p>
+
+                    <div className='branco'>
+                        <img height="100" width="180" alt='ensitec' title='Ensitec' src={seed}/>
+                        <p className='exp'>
+                            Contract form: PSS (Simplifyed Selection Process).<br/>
+                            <br/>
+                            &ensp;&ensp;Ministrar aulas teóricas e práticas no ensino fundamental e médio, em escolas da rede pública da região da grande Curitiba; acompanhar a produção da área educacional e cultural; planejar o curso, a disciplina e o projeto pedagógico.<br/>
+                            <br/>
+                            &ensp;&ensp;Avaliar o processo de ensino-aprendizagem; preparar aulas e participar de atividades institucionais. Modificar estratégias durante a aula para maior aprendizagem. 
+                            Corrigir provas, trabalhos e outros instrumentos de avaliação. Preencher diários de classe: frequência, conteúdos e avaliação. Incentivar a capacidade criadora dos alunos. <br/>
+                            <br/>
+                            &ensp;&ensp;Desenvolver as percepções estética, ética e política nos alunos. Desenvolver atividades relacionadas à produção artística contemporânea. Informar o aluno sobre a relevância do conhecimento para o desenvolvimento humano. <br/>
+                            <br/>
+                            &ensp;&ensp;Desenvolver atividades para compreensão política dos problemas da sociedade. Informar-se sobre as tendências relativas ao ensino do campo específico da arte. Relacionar-se com a comunidade escolar.<br/>
+                            <br/>
+                            &ensp;&ensp;Atentar para reações dos alunos na sala e estabelecer empatia eles. 
+                            Respeitar as diferenças culturais, econômicas e sociais da comunidade escolar. Administrar conflitos. Expressar-se com clareza. 
+                        </p>
+                    </div>
+                </div>
+
                 <h2>Interest in</h2>
                 
                 <p>Game Design</p>
