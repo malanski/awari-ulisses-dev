@@ -79,7 +79,7 @@ export const Aside = (props) => {
                         <span>
                             Curriculo 
                         </span>
-                    &ensp;&ensp;<FontAwesomeIcon icon={faBattery4} />
+                    &ensp;&ensp;<FontAwesomeIcon icon={faCheckCircle} />
 
                     </CustomLink>
 

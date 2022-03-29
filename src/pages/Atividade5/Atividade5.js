@@ -11,6 +11,8 @@ import seedmg from '../../assets/images/seedmg.png';
 import minas from '../../assets/images/minas.jpg';
 import seed from '../../assets/images/seed.png';
 import parana from '../../assets/images/parana.jpg';
+import atividade5 from '../../assets/images/atividade5.pdf';
+
 
 
 
@@ -31,9 +33,19 @@ export const Atividade5 = (props) => {
 
         <div className='atividade5'>
             <h1>Curriculum</h1>
-            
-            
+                        
+            <embed 
+                src={atividade5}
+                
+                width='90%'
+                height='1000px' 
+            />
 
+            <br/>
+
+        
+
+            <h3>English Resume</h3>
             <h2>Ulisses Malanski</h2>
 
             <div className='formation'>
