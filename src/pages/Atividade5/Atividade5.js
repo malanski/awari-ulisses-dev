@@ -12,6 +12,7 @@ import minas from '../../assets/images/minas.jpg';
 import seed from '../../assets/images/seed.png';
 import parana from '../../assets/images/parana.jpg';
 import atividade5 from '../../assets/images/atividade5.pdf';
+import atividade5print from '../../assets/images/atividade5-printable.pdf';
 
 
 
@@ -33,13 +34,31 @@ export const Atividade5 = (props) => {
 
         <div className='atividade5'>
             <h1>Curriculum</h1>
-                        
+            <h2>Printable PDF version:</h2>
+
             <embed 
-                src={atividade5}
+                src={atividade5print}
                 
                 width='90%'
                 height='1000px' 
             />
+
+            <br/>    
+
+            <h2>
+                
+                HTML version: <a href="https://malanski.github.io/curriculo/">
+                    Link Curriculo HTML
+                </a>
+            </h2>
+
+            
+            <embed 
+                    src='https://malanski.github.io/curriculo/'
+                    
+                    width='90%'
+                    height='1000px' 
+                />
 
             <br/>
 
