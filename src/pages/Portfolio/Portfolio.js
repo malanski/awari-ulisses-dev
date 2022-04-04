@@ -7,14 +7,27 @@ import diploma from '../../assets/images/diploma.png';
 import belas from '../../assets/images/belas.jpeg';
 import ensitec from '../../assets/images/ensitec.jpeg';
 import certificate from '../../assets/images/certificate.png';
+import tattoo from '../../assets/images/pngegg.png';
+import tattoo2 from '../../assets/images/tattoo.jpg';
+
+
 import seedmg from '../../assets/images/seedmg.png';
 import minas from '../../assets/images/minas.jpg';
+
 import seed from '../../assets/images/seed.png';
 import parana from '../../assets/images/parana.jpg';
 
+import dio1 from '../../assets/images/DIO-logica.pdf';
+import dio2 from '../../assets/images/DIO-git.pdf';
+import dio3 from '../../assets/images/DIO-github1.pdf';
+import dio4 from '../../assets/images/DIO-gitlab.pdf';
+import dio5 from '../../assets/images/DIO-UX.pdf';
+
+
+
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCertificate } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcaseClock, faCertificate, faClock, faHeadSideMask, faHorseHead, faMapPin, faPaintbrush, faPen, faPenAlt, faSchool } from '@fortawesome/free-solid-svg-icons';
 
 
 export const Portfolio = (props) => {
@@ -35,14 +48,126 @@ export const Portfolio = (props) => {
             <div className='paragraf'>
             <h3>Web Developer - FrontEnd - FullStack</h3>
                 <p>
-                    &ensp;&ensp;Sou Desenvolvedor Web, minha carreira profissional começou no setor de pesquisa (Museu) onde trabalhei dois anos. Atuei como Arte-Educador, por 7 anos em escolas públicas e também como Tatuador Autônomo por 5 anos, onde desenvolvi ilustrações e outros tipos de design.<br/>
+                    &ensp;&ensp;I'm Web Developer, my professional career begins on Research sector (Museum) where I worked for two years. I acted as Art-Teacher, for 7 years on Public Schools and also as Tattoo artist for 5 years, where I developed illustrations and designs.<br/>
                     <br/>
-                    Hoje me encontro na área de tecnologia (Front-end + Back-end), e estou pulando de cabeça na Computação, pois quero mesclar meus conhecimentos em arte e design com a engenharia de softwares e também aprender e desenvolver projetos com novas linguagens de programação.<br/>
+                    Today I found myself in the technology area (Front-end + Back-end), jumping head first on Computing because I want to merge my knowledge on art and design with software engineering and also learn and develop projects with programing languages. <br/> 
                     <br/>
-                    No meu tempo livre busco conhecer novas tecnologias, compor algumas musicas experimentais e criar desenhos e animações.<br/>
+                    At my free time I do search for newest technologies, compose some experimental music and create drawings and animations.<br/>
                 </p>
-
             </div>
+
+            <div className='formation'>
+                <br/>
+
+                <h2><FontAwesomeIcon icon={faHorseHead}></FontAwesomeIcon> Experience</h2>
+
+                <div className='certificate'>
+                    <p className='flex-line'>
+                        <div>
+                            <small>Job title</small><br/>
+                            <FontAwesomeIcon icon={faPaintbrush} /> Tattoo artist<br/>
+                            <small>Where</small><br/>
+                            <small><FontAwesomeIcon icon={faMapPin} /> UnionTTT - Curitiba - Paraná</small>
+                        </div>
+                        <a href='https://www.instagram.com/unionttt/' title='Unionttt tattoo studio'><FontAwesomeIcon icon={faSchool} /> UnionTTT</a> <span><FontAwesomeIcon icon={faClock} /> 2016 - Today</span>
+                        <img height="80" width="100" alt='Public Education' title='Public Education' src={tattoo}/>
+                    </p>
+
+                    <div className='branco'>
+                        <img height="100" width="180" alt='Public Education of Minas Gerais State'
+                         title='Public Education of Minas Gerais State' src={tattoo2}/>
+                        <ul className='expList'>
+                            <li>Create images, paintings, drawings and illustrations. </li>
+                            <li>Develop and apply tattoos based on clients information and references .</li>
+                            <li>Keep a controled and clean ambient at the tattoo studio.</li>
+                            <li>Assist clients on the healing process.</li>
+                            <li>Cleaning, sterilization of the tattoo equipment and the tattoo studio.</li>
+                            <li>Elaborate designs and sketches.</li>
+                            <li>Keep up with the newest trends on health and the tattoo area.</li>
+                            <li>Meet ant talk with clients about they ideas.</li>
+                            <li>Schedule Appointment.</li>
+                            <li>Orientate the client about the post tattoo cares, for appropriate healing.</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                <div className='certificate'>
+                    <p className='flex-line'>
+                        <div>
+                            <small>Job title</small><br/>
+                            <FontAwesomeIcon icon={faPenAlt} /> Art teacher <br/>
+                            <small>Where</small><br/>
+
+                            <small><FontAwesomeIcon icon={faMapPin} /> State Secretary of Education of Minas Gerais</small>
+                        </div>
+                        <a href='https://www2.educacao.mg.gov.br/' title='Secretaria de Estado de Educação de Minas Gerais'><FontAwesomeIcon icon={faSchool} /> SEED-MG</a> <span><FontAwesomeIcon icon={faClock} /> 2014 - 2018</span>
+                        <img height="80" width="100" alt='Public Education' title='Public Education' src={minas}/>
+                    </p>
+
+                    <div className='branco'>
+                        <img height="100" width="180" alt='Public Education of Minas Gerais State' title='Public Education of Minas Gerais State' src={seedmg}/>
+                        <ul className='expList'>
+                            <li>To teach theoretical and practical classes on public schools. </li>
+                            <li>Keep up with the Production on Education and Cultural areas.</li>
+                            <li>To plan the course, the discipline and the pedagogical project.</li>
+                            <li>To assess the process of teaching/learnng.</li>
+                            <li>To modify the strategies during class.</li>
+                            <li>Correct tests and home works.</li>
+                            <li>To document class daily, frequency, content, grades.</li>
+                            <li>To develop activities related to the contemporary art production.</li>
+                            <li>To inform the student about the relevance of knowledge in the human development.</li>
+                            <li>To develop activities for the political understanding of the society problems.</li>
+                            <li>To be updated about tendencies on art teaching</li>
+                            <li>Relate to the school community.</li>
+                            <li>Pay attention to students reactions at the class room. Stablish empathy with them.</li>
+                            <li>Respect the cultural, economic and social variety.</li>
+                            <li>Menage conflicts</li>
+                            <li>Communicate clearly.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div className='certificate'>
+                <p className='flex-line'>
+                        <div>
+                            <small>Job title</small><br/>
+                            <FontAwesomeIcon icon={faPenAlt} /> Art teacher <br/>
+                            <small>Where</small><br/>
+
+                            <small><FontAwesomeIcon icon={faMapPin} /> State Secretary of Education of Paraná</small>
+                        </div>
+                        <a href='https://www.educacao.pr.gov.br/' title='Secretaria de Estado de Educação do Paraná'><FontAwesomeIcon icon={faSchool} /> SEED-PR</a> <span><FontAwesomeIcon icon={faClock} /> 2011 - 2013</span>
+                        <img height="80" width="100" alt='Public Education' title='Public Education' src={parana}/>
+                    </p>
+
+                    
+                    <div className='branco'>
+                        <img height="100" width="180" alt='ensitec' title='Ensitec' src={seed}/>
+                        <ul className='expList'>
+                            <li>To teach theoretical and practical classes on public schools. </li>
+                            <li>Keep up with the Production on Education and Cultural areas.</li>
+                            <li>To plan the course, the discipline and the pedagogical project.</li>
+                            <li>To assess the process of teaching/learnng.</li>
+                            <li>To modify the strategies during class.</li>
+                            <li>Correct tests and home works.</li>
+                            <li>To document class daily, frequency, content, grades.</li>
+                            <li>To develop activities related to the contemporary art production.</li>
+                            <li>To inform the student about the relevance of knowledge in the human development.</li>
+                            <li>To develop activities for the political understanding of the society problems.</li>
+                            <li>To be updated about tendencies on art teaching</li>
+                            <li>Relate to the school community.</li>
+                            <li>Pay attention to students reactions at the class room. Stablish empathy with them.</li>
+                            <li>Respect the cultural, economic and social variety.</li>
+                            <li>Menage conflicts</li>
+                            <li>Communicate clearly.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                
+            </div>
+
             <h3>Abilities Stack</h3>
 
             <div className='row-abilities'>                
@@ -102,6 +227,8 @@ export const Portfolio = (props) => {
                     </li>
                 </ul>
             </div>
+
+            
             
             <div className='devicon'>
                 <img height="50" width="50" alt='devicon' title='JavaScript' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"/>
@@ -140,9 +267,9 @@ export const Portfolio = (props) => {
                             <br/>
                             VScode, Dbeaver, Sequelize, PostgreSQL, Git, Github.  
                         </p>
-                    </div>
-                    
+                    </div>                    
                 </div>
+
                 
                 <div className='certificate'>
                     <p className='flex-line'>
@@ -172,11 +299,19 @@ export const Portfolio = (props) => {
                         <img height="100" width="180" alt='DIO' title='Digital innovation one' src={dio}/>
 
                         <p>
-                            Various basics courses.<br/>
+                            Introduction and basics courses.<br/>
                             <br/>
-                            HTML5, CSS Flex-box, Bootstrap, VScode, Git, Github and Gitlab.
+                            
                         </p>
+                        
                     </div>
+                    <embed width='50%' height='250px' src={dio1}></embed>
+                    <embed width='50%' height='250px' src={dio2}></embed><br/>
+                    <embed width='50%' height='250px' src={dio3}></embed>
+                    <embed width='50%' height='250px' src={dio4}></embed>
+                    <embed width='50%' height='250px' src={dio5}></embed>
+
+
                 </div>
 
                 <div className='certificate'>
@@ -217,75 +352,9 @@ export const Portfolio = (props) => {
                             <br/>
                             Project Metodology, Diagramation, 
                         </p>
+
                     </div>
                 </div>
-            </div>
-
-            <div className='formation'>
-                <br/>
-
-                <h2>Experience</h2>
-
-                <div className='certificate'>
-                    <p className='flex-line'>
-                        <div>
-                            <small>Job title</small><br/>
-                            Art teacher 
-                        </div>
-                        <a href='https://www2.educacao.mg.gov.br/' title='Secretaria de Estado de Educação de Minas Gerais'>SEED-MG</a> 2014 - 2018
-                        <img height="80" width="100" alt='Public Education' title='Public Education' src={minas}/>
-                    </p>
-
-                    <div className='branco'>
-                        <img height="100" width="180" alt='ensitec' title='Ensitec' src={seedmg}/>
-                        <p className='exp'>
-                            Contract form: Designação (Designation).<br/>
-                            <br/>
-                            &ensp;&ensp;Ministrar aulas teóricas e práticas no ensino fundamental e médio, em escolas da rede pública da região da grande Belo Horizonte; acompanhar a produção da área educacional e cultural; planejar o curso, a disciplina e o projeto pedagógico.<br/>
-                            <br/>
-                            &ensp;&ensp;Avaliar o processo de ensino-aprendizagem; preparar aulas e participar de atividades institucionais. Modificar estratégias durante a aula para maior aprendizagem. 
-                            Corrigir provas, trabalhos e outros instrumentos de avaliação. Preencher diários de classe: frequência, conteúdos e avaliação. Incentivar a capacidade criadora dos alunos. <br/>
-                            <br/>
-                            &ensp;&ensp;Desenvolver as percepções estética, ética e política nos alunos. Desenvolver atividades relacionadas à produção artística contemporânea. Informar o aluno sobre a relevância do conhecimento para o desenvolvimento humano. <br/>
-                            <br/>
-                            &ensp;&ensp;Desenvolver atividades para compreensão política dos problemas da sociedade. Informar-se sobre as tendências relativas ao ensino do campo específico da arte. Relacionar-se com a comunidade escolar.<br/>
-                            <br/>
-                            &ensp;&ensp;Atentar para reações dos alunos na sala e estabelecer empatia eles. 
-                            Respeitar as diferenças culturais, econômicas e sociais da comunidade escolar. Administrar conflitos. Expressar-se com clareza. 
-                        </p>
-                    </div>
-                </div>
-
-                <div className='certificate'>
-                    <p className='flex-line'>
-                        <div>
-                            <small>Job title</small><br/>
-                            Art teacher 
-                        </div>
-                        <a href='https://www.educacao.pr.gov.br/' title='Secretaria de Estado de Educação de Minas Gerais'>SEED-PR</a> 2011 - 2013
-                        <img height="80" width="100" alt='Public Education' title='Public Education' src={parana}/>
-                    </p>
-
-                    <div className='branco'>
-                        <img height="100" width="180" alt='ensitec' title='Ensitec' src={seed}/>
-                        <p className='exp'>
-                            Contract form: PSS (Simplifyed Selection Process).<br/>
-                            <br/>
-                            &ensp;&ensp;Ministrar aulas teóricas e práticas no ensino fundamental e médio, em escolas da rede pública da região da grande Curitiba; acompanhar a produção da área educacional e cultural; planejar o curso, a disciplina e o projeto pedagógico.<br/>
-                            <br/>
-                            &ensp;&ensp;Avaliar o processo de ensino-aprendizagem; preparar aulas e participar de atividades institucionais. Modificar estratégias durante a aula para maior aprendizagem. 
-                            Corrigir provas, trabalhos e outros instrumentos de avaliação. Preencher diários de classe: frequência, conteúdos e avaliação. Incentivar a capacidade criadora dos alunos. <br/>
-                            <br/>
-                            &ensp;&ensp;Desenvolver as percepções estética, ética e política nos alunos. Desenvolver atividades relacionadas à produção artística contemporânea. Informar o aluno sobre a relevância do conhecimento para o desenvolvimento humano. <br/>
-                            <br/>
-                            &ensp;&ensp;Desenvolver atividades para compreensão política dos problemas da sociedade. Informar-se sobre as tendências relativas ao ensino do campo específico da arte. Relacionar-se com a comunidade escolar.<br/>
-                            <br/>
-                            &ensp;&ensp;Atentar para reações dos alunos na sala e estabelecer empatia eles. 
-                            Respeitar as diferenças culturais, econômicas e sociais da comunidade escolar. Administrar conflitos. Expressar-se com clareza. 
-                        </p>
-                    </div>
-                </div>
-
                 <h2>Interest in</h2>
                 
                 <p>Game Design</p>
@@ -294,6 +363,7 @@ export const Portfolio = (props) => {
                 <p>Computer Science</p>
                 <p>Prosthetics Design</p>
             </div>
+
 
             
 

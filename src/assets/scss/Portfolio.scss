@@ -4,8 +4,8 @@
     background: rgb(29, 29, 29);
     color: white;
     .paragraf {
-        width: 80%;
-        margin: 10%;
+        width: 90%;
+        margin: 5%;
         text-align: justify;
         font-size: 18px;
     }
@@ -23,6 +23,19 @@
             font-weight: 900;
             font-size: 22px;
         }
+    }
+    .expList{
+        list-style: square;
+        text-align: left;
+        li{
+            text-transform: none;
+            font-size: 18px;
+            line-height: 24px;
+            color: rgb(255, 255, 255);
+        
+            font-weight: 300;
+        }
+
     }
     .row-abilities{
         display: flex;
@@ -60,9 +73,11 @@
         width: 90%;
     }
     .formation{
-        width: 80%;
+        width: calc(100% - 10px);
         margin-top: 40px;
-        margin-left: 10%;
+        margin-left: 5px;
+        margin-right: 5px;
+
         text-align: left;
         font-size: 18px;
         .certificate{
