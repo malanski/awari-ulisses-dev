@@ -33,6 +33,12 @@ export const Aside = (props) => {
                         Home
                     </span>
             </CustomLink>
+            <CustomLink to="/portfolio">
+                    <span>
+                        Portfolio
+                    </span>
+            </CustomLink>
+
             <ol>
                 <li>
                     <CustomLink to="/atividade1">

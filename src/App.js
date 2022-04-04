@@ -5,6 +5,8 @@ import { Aside } from './components/Aside';
 import { Footer } from './components/Footer';
 
 import { Home } from './pages/Home'
+import { Portfolio } from './pages/Portfolio'
+
 import { Atividade1 } from './pages/Atividade1'
 import { Atividade2 } from './pages/Atividade2'
 import { Atividade3 } from './pages/Atividade3'
@@ -30,6 +32,8 @@ function App() {
 
           <Routes>
             <Route path ='/' element={<Home />} />
+            <Route path ='/portfolio' element={<Portfolio />} />
+
             <Route path ='/atividade1' element={<Atividade1 />} />
             <Route path ='/atividade2' element={<Atividade2 />} />
             <Route path ='/atividade3' element={<Atividade3 />} />
@@ -38,6 +42,8 @@ function App() {
             <Route path ='/atividade6' element={<Atividade6 />} />
             <Route path ='/atividade7' element={<Atividade7 />} />
             <Route path ='/atividade8' element={<Atividade8 />} />
+
+
             <Route path ='/atividade15' element={<Atividade15 />} />
             <Route path ='/atividade18' element={<Atividade18 />} />
             <Route path ='/atividade19' element={<Atividade19 />} />
