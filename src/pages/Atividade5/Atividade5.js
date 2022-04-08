@@ -1,6 +1,6 @@
 import '../../assets/scss/Atividade5.scss';
 import atividade5 from '../../assets/images/atividade5.pdf';
-import atividade5print from '../../assets/images/ulisses_malanski_front-end_06-04-22.pdf';
+import atividade5print from '../../assets/images/ulisses_malanski_front-end_07-04-22.pdf';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCertificate } from '@fortawesome/free-solid-svg-icons';
