@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/awari-ulisses-dev/static/css/main.fd295a25.css",
-    "main.js": "/awari-ulisses-dev/static/js/main.f359db42.js",
+    "main.js": "/awari-ulisses-dev/static/js/main.35c05760.js",
     "static/js/787.56519065.chunk.js": "/awari-ulisses-dev/static/js/787.56519065.chunk.js",
-    "static/media/atividade5-printable.pdf": "/awari-ulisses-dev/static/media/atividade5-printable.7d49d3c8754eceedd6ae.pdf",
     "static/media/atividade5.pdf": "/awari-ulisses-dev/static/media/atividade5.8f9b09789671787a7f43.pdf",
+    "static/media/ulisses_malanski_front-end_07-04-22.pdf": "/awari-ulisses-dev/static/media/ulisses_malanski_front-end_07-04-22.34a511957037199331d0.pdf",
     "static/media/DIO-logica.pdf": "/awari-ulisses-dev/static/media/DIO-logica.ee3cda1c49601a402624.pdf",
     "static/media/DIO-git.pdf": "/awari-ulisses-dev/static/media/DIO-git.102ececff6dfd0c1d6bb.pdf",
     "static/media/DIO-UX.pdf": "/awari-ulisses-dev/static/media/DIO-UX.98bb08d1981b3c5ab14c.pdf",
@@ -32,11 +32,11 @@
     "static/media/grasshopper.svg": "/awari-ulisses-dev/static/media/grasshopper.621698a02400207988c0ea3a4990a615.svg",
     "index.html": "/awari-ulisses-dev/index.html",
     "main.fd295a25.css.map": "/awari-ulisses-dev/static/css/main.fd295a25.css.map",
-    "main.f359db42.js.map": "/awari-ulisses-dev/static/js/main.f359db42.js.map",
+    "main.35c05760.js.map": "/awari-ulisses-dev/static/js/main.35c05760.js.map",
     "787.56519065.chunk.js.map": "/awari-ulisses-dev/static/js/787.56519065.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd295a25.css",
-    "static/js/main.f359db42.js"
+    "static/js/main.35c05760.js"
   ]
 }
