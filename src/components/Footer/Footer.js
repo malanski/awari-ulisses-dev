@@ -1,6 +1,7 @@
 import './Footer.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookSquare, faGithubAlt, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import logo from '../../assets/images/awari4.jpg';
 
 export function Footer() {
     return (
@@ -30,6 +31,8 @@ export function Footer() {
 
                 <h3 className='black-font'>...be like Water my friend.</h3>
             </div>
+            <img className='logo' src={logo} alt="Awari School" />
+
         </footer>
     )
 }

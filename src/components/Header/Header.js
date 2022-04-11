@@ -5,7 +5,6 @@ import logo from '../../assets/images/awari4.jpg';
 export function Header() {
      return (
         <header>
-                <img className='logo' src={logo} alt="Awari School" />
                 
                 <div className='header-container'>
                     <span>Awari web development course</span>
