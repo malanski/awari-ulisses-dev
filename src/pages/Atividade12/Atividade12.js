@@ -1,6 +1,4 @@
 import '../../assets/scss/Atividade12.scss';
-import atividade5print from '../../assets/images/ulisses_malanski_front-end_07-04-22.pdf';
-import atividade5print2 from '../../assets/images/ulisses_malanski_front-end_4-8-22.pdf';
 
 export const Atividade12 = (props) => {
     return (
@@ -10,8 +8,7 @@ export const Atividade12 = (props) => {
 
             <h2>
                 
-                Check List: <a href="https://malanski.github.io/curriculum-eng/">
-                    Link Curriculo HTML
+                Check List: <a href="https://docs.google.com/spreadsheets/d/1wH6wbWgnWLL0EqkOGxu7QUBnyHtWgfcVe0ap3pqzWcA/edit?usp=sharing">
                 </a>
             </h2>
 

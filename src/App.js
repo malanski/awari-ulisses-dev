@@ -15,6 +15,8 @@ import { Atividade5 } from './pages/Atividade5'
 import { Atividade6 } from './pages/Atividade6'
 import { Atividade7 } from './pages/Atividade7'
 import { Atividade8 } from './pages/Atividade8'
+import { Atividade9 } from './pages/Atividade9'
+
 import { Atividade12 } from './pages/Atividade12'
 
 import { Atividade15 } from './pages/Atividade15'
@@ -22,6 +24,7 @@ import { Atividade18 } from './pages/Atividade18';
 import { Atividade19 } from './pages/Atividade19';
 
 import './App.scss';
+import { Atividade11 } from './pages/Atividade11';
 
 function App() {
   return (
@@ -44,6 +47,9 @@ function App() {
             <Route path ='/atividade6' element={<Atividade6 />} />
             <Route path ='/atividade7' element={<Atividade7 />} />
             <Route path ='/atividade8' element={<Atividade8 />} />
+            <Route path ='/atividade9' element={<Atividade9 />} />
+
+            <Route path ='/atividade11' element={<Atividade11 />} />
             <Route path ='/atividade12' element={<Atividade12 />} />
 
             <Route path ='/atividade15' element={<Atividade15 />} />

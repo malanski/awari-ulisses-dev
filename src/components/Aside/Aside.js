@@ -146,7 +146,7 @@ export const Aside = (props) => {
                         <span>
                             Employment Sheet: Job Searching 
                         </span>
-                        &ensp;<FontAwesomeIcon icon={faBattery0} />
+                        &ensp;<FontAwesomeIcon icon={faBattery4} />
 
                     </CustomLink>
                 </li>
@@ -156,7 +156,7 @@ export const Aside = (props) => {
                         <span>
                             Job applying: Job Searching 
                         </span>
-                        &ensp;<FontAwesomeIcon icon={faBattery0} />
+                        &ensp;<FontAwesomeIcon icon={faBattery4} />
 
                     </CustomLink>
                 </li>
