@@ -8,7 +8,7 @@ export const Atividade15 = (props) => {
 
 
         <div className='atividade15'>
-            <h1>Tarefa: 15#</h1>
+            <h1>15# Desafios Técnicos</h1>
             <h2>Objetivos</h2>
             <p>Listar, conhecer e responder os principais desafios de processos seletivos:</p>
             <h3>Link da Atividade:</h3>

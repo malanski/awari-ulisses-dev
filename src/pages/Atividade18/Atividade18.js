@@ -10,7 +10,7 @@ export const Atividade18 = (props) => {
 
         <div className='atividade18'>
 
-            <h1>Tarefa E.V.P.: 18#</h1>
+            <h1>18# Tarefa E.V.P.</h1>
             <h3>Escala de valores relativos ao Trabalho</h3>
 
             <h2>Objetivos</h2>

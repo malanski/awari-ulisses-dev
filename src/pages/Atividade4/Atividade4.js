@@ -4,7 +4,7 @@ import '../../assets/scss/Atividade4.scss';
 export const Atividade4 = (props) => {
     return (
         <div className='atividade4'>
-            <h1>Carta de apresentação</h1>
+            <h1>4# Carta de apresentação</h1>
 
             <h2>Caro Gerente</h2>
             <p>

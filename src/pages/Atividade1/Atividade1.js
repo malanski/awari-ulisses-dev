@@ -4,7 +4,7 @@ import printSite from '../../assets/images/image.png'
 export const Atividade1 = (props) => {
     return (
         <div className='atividade1'>
-            <h1>Observar e Relatar</h1>
+            <h1>1# Observar e Relatar</h1>
             <p> Selecione seu site preferido da internet – 
                 sem julgamentos e tire uma screenshot da principal forma que você o utiliza.
             </p>

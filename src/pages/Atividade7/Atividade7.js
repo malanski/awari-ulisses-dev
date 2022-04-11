@@ -6,7 +6,7 @@ import '../../assets/scss/Atividade7.scss';
 export const Atividade7 = (props) => {
     return (
         <div className='atividade7'>
-            <h1>Projeto React App</h1>
+            <h1>7# Projeto React App</h1>
             
             
 

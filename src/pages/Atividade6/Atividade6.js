@@ -7,7 +7,7 @@ export const Atividade6 = (props) => {
     return (
         <div className='atividade6'>
 
-            <h1>Criar uma página usando apenas HTML + CSS</h1>
+            <h1>6# Criar uma página usando apenas HTML + CSS</h1>
 
             <a href='https://malanski.github.io/ulisses-malanski-art/index.html'>
                 <img className='activity-image' src={atividade6} alt='Basic Site with HTML+CSS'/>

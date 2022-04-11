@@ -5,7 +5,7 @@ import linkedin2 from '../../assets/images/image4.png';
 export const Atividade3 = (props) => {
     return (
         <div className='atividade3'>
-            <h1>Linkedin Profile and Networking</h1>
+            <h1>3# Linkedin Profile and Networking</h1>
             <img src={linkedin1} alt='linkedin about'/>
             <img src={linkedin2} alt='linkedin competences'/>
 

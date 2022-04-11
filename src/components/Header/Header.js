@@ -1,5 +1,4 @@
 import './Header.scss';
-import logo from '../../assets/images/awari4.jpg';
 
 
 export function Header() {
