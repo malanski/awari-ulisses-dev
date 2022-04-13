@@ -27,7 +27,7 @@ function CustomLink({ children, to, ...props }) {
 export const Aside = (props) => {
     return (
         <aside>
-            <h3>Atividades</h3>
+            <h3>Course Projects</h3>
                 <CustomLink to="/">
                     <span>
                         Home
@@ -43,7 +43,7 @@ export const Aside = (props) => {
                 <li>
                     <CustomLink to="/atividade1">
                         <span>
-                            Observar e relatar  
+                            To see and analyze     
                         </span>
                         &ensp;<FontAwesomeIcon icon={faCheckCircle} />
 
@@ -53,7 +53,7 @@ export const Aside = (props) => {
                 <li>
                     <CustomLink to="/atividade2">
                         <span>
-                            <small>Especificações</small> 0: Create Portfolio Github
+                            <small>Specification</small> Zero: Create Portfolio Github
                         </span>
                         &ensp;<FontAwesomeIcon icon={faCheckCircle} />
 
@@ -73,7 +73,7 @@ export const Aside = (props) => {
                 <li>
                     <CustomLink to="/atividade4">
                         <span>
-                            Carta de Apresentação
+                            Introduce Mail
                         </span>
                         &ensp;<FontAwesomeIcon icon={faBattery3} />
 
@@ -83,7 +83,7 @@ export const Aside = (props) => {
                 <li>
                     <CustomLink to="/atividade5">
                         <span>
-                            Curriculo 
+                            Curriculum 
                         </span>
                     &ensp;&ensp;<FontAwesomeIcon icon={faCheckCircle} />
 
@@ -94,7 +94,7 @@ export const Aside = (props) => {
                 <li>
                     <CustomLink to="/atividade6">
                         <span>
-                            <small>Especificações</small> 1: Projeto: Pagina HTML + CSS
+                            <small>Specification</small> 1: Project: HTML + CSS Page
                         </span>
                         &ensp;<FontAwesomeIcon icon={faCheckCircle} />
 
@@ -104,7 +104,7 @@ export const Aside = (props) => {
                 <li>
                     <CustomLink to="/atividade7">
                         <span>
-                            <small>Especificações</small> 2: Projeto: React App
+                            <small>Specification</small> 2: Project: React App
                         </span>
                         &ensp;<FontAwesomeIcon icon={faCheckCircle} />
 
@@ -114,7 +114,7 @@ export const Aside = (props) => {
                 <li>
                     <CustomLink to="/atividade8">
                         <span>
-                            <small>Especificações</small> 3: Projeto: Next.js App
+                            <small>Specification</small> 3: Project: Next.js App
                         </span>
                         &ensp;<FontAwesomeIcon icon={faCheckCircle} />
 
@@ -124,7 +124,7 @@ export const Aside = (props) => {
                 <li>
                     <CustomLink to="/atividade9">
                         <span>
-                            <small>Especificações</small> 4: Projeto: Database
+                            <small>Specification</small> 4: Project: Database
                         </span>
                         &ensp;<FontAwesomeIcon icon={faBattery2} />
 
@@ -134,7 +134,7 @@ export const Aside = (props) => {
                 <li>
                     <CustomLink to="/atividade8">
                         <span>
-                            <small>Especificações</small> 10: Projeto:  Next.js + TypeScript
+                            <small>Specification</small> 10: Project:  Next.js + TypeScript
                         </span>
                         &ensp;<FontAwesomeIcon icon={faBattery4} />
 
@@ -164,7 +164,7 @@ export const Aside = (props) => {
                 <li>
                     <CustomLink to="/atividade13">
                         <span>
-                            <small>Especificações</small> 5: Projeto: Exress API
+                            <small>Specification</small> 5: Project: Express API
                         </span>
                         &ensp;<FontAwesomeIcon icon={faBattery0} />
 
@@ -174,7 +174,7 @@ export const Aside = (props) => {
                 <li>
                     <CustomLink to="/atividade14">
                         <span>
-                            <small>Especificações</small> 6: Projeto: Conteinteirize API
+                            <small>Specification</small> 6: Project: Conteineirize API
                         </span>
                         &ensp;<FontAwesomeIcon icon={faBattery0} />
 
@@ -194,7 +194,7 @@ export const Aside = (props) => {
                 <li>
                     <CustomLink to="/atividade16">
                         <span>
-                            <small>Especificações</small> 7: Projeto: Deploy na Cloud
+                            <small>Specification</small> 7: Project: Cloud Deploy 
                         </span>
                         &ensp;<FontAwesomeIcon icon={faBattery0} />
 
@@ -204,7 +204,7 @@ export const Aside = (props) => {
                 <li>
                     <CustomLink to="/atividade17">
                         <span>
-                            <small>Especificações</small> 8: Projeto: Lambda no ar
+                            <small>Specification</small> 8: Project: Lambda on air
                         </span>
                         &ensp;<FontAwesomeIcon icon={faBattery0} />
 
@@ -214,7 +214,7 @@ export const Aside = (props) => {
                 <li>
                     <CustomLink to="/atividade18">
                         <span>
-                            Tarefa: E.V.P.
+                            Task: E.V.P.
                         </span>
                         &ensp;<FontAwesomeIcon icon={faCheckCircle} />
 
@@ -224,7 +224,7 @@ export const Aside = (props) => {
                 <li>
                     <CustomLink to="/atividade19">
                         <span>
-                            Tarefa: Career Development Plan
+                            Task: Career Development Plan
                         </span>
                         &ensp;<FontAwesomeIcon icon={faCheckCircle} />
 
@@ -234,7 +234,7 @@ export const Aside = (props) => {
                 <li>
                     <CustomLink to="/atividade8">
                         <span>
-                            <small>Especificações</small> 9: Projeto: Next.js + TypeScript + API
+                            <small>Specification</small> 9: Project: Next.js + TypeScript + API
                         </span>
                         &ensp;<FontAwesomeIcon icon={faBattery4} />
 

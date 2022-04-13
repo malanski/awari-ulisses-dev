@@ -316,7 +316,7 @@ export const Portfolio = (props) => {
 
                 <div className='certificate'>
                     <p className='flex-line'>
-                        Graduated in Drawing Licentiate (art teaching) at <a href='http://www.embap.pr.gov.br/' title='Escola de Musica e Belas Artes do Paraná'> EMBAP </a>
+                        Bachelor's degree in <b>Drawing Licentiate<br/>(Visual Arts)</b> at <a href='http://www.embap.pr.gov.br/' title='Escola de Musica e Belas Artes do Paraná'> EMBAP </a>
                         (2010-Brazil)
                         <img height="80" width="120" alt='Diploma' title='Diploma' src={diploma}/>
                     </p>
@@ -339,7 +339,7 @@ export const Portfolio = (props) => {
 
                 <div className='certificate'>
                     <p className='flex-line'>
-                        Product and Graphic Design Course at <a href='https://www.colegioensitec.com.br/' title='ENSITEC Dom Bosco School Group'>ENSITEC</a> (2006-Brazil)
+                        Associates Degree on <b>Graphic and Product Design</b>, Product and Graphic Design Course at <a href='https://www.colegioensitec.com.br/' title='ENSITEC Dom Bosco School Group'>ENSITEC</a> (2006-Brazil)
                         <img height="80" width="100" alt='certificate' title='certificate' src={certificate}/>
                     </p>
 
