@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/awari-ulisses-dev/static/css/main.78443875.css",
-    "main.js": "/awari-ulisses-dev/static/js/main.786d88ad.js",
+    "main.css": "/awari-ulisses-dev/static/css/main.f9cd6137.css",
+    "main.js": "/awari-ulisses-dev/static/js/main.56aa4e6e.js",
     "static/js/787.56519065.chunk.js": "/awari-ulisses-dev/static/js/787.56519065.chunk.js",
-    "static/media/ulisses_malanski_front-end_07-04-22.pdf": "/awari-ulisses-dev/static/media/ulisses_malanski_front-end_07-04-22.34a511957037199331d0.pdf",
-    "static/media/ulisses_malanski_front-end_4-8-22.pdf": "/awari-ulisses-dev/static/media/ulisses_malanski_front-end_4-8-22.294fcd002b0dbad10dc1.pdf",
+    "static/media/ulisses_malanski_front-end_09-04-22.pdf": "/awari-ulisses-dev/static/media/ulisses_malanski_front-end_09-04-22.a80b7ea12369da56489b.pdf",
+    "static/media/ulisses_malanski_front-end_4-8-22.pdf": "/awari-ulisses-dev/static/media/ulisses_malanski_front-end_4-8-22.cf6d188b84b1d005eb7a.pdf",
     "static/media/DIO-logica.pdf": "/awari-ulisses-dev/static/media/DIO-logica.ee3cda1c49601a402624.pdf",
     "static/media/DIO-git.pdf": "/awari-ulisses-dev/static/media/DIO-git.102ececff6dfd0c1d6bb.pdf",
     "static/media/DIO-UX.pdf": "/awari-ulisses-dev/static/media/DIO-UX.98bb08d1981b3c5ab14c.pdf",
@@ -29,14 +29,14 @@
     "static/media/minas.jpg": "/awari-ulisses-dev/static/media/minas.09144362a8a36e173e08.jpg",
     "static/media/belas.jpeg": "/awari-ulisses-dev/static/media/belas.e797bd5d8ea7c754d79f.jpeg",
     "static/media/awari.png": "/awari-ulisses-dev/static/media/awari.b8633b0f2ad31a658e24.png",
-    "static/media/grasshopper.svg": "/awari-ulisses-dev/static/media/grasshopper.621698a02400207988c0ea3a4990a615.svg",
+    "static/media/grasshopper.svg": "/awari-ulisses-dev/static/media/grasshopper.bf1799c1c0c1e422d19790677cf805c0.svg",
     "index.html": "/awari-ulisses-dev/index.html",
-    "main.78443875.css.map": "/awari-ulisses-dev/static/css/main.78443875.css.map",
-    "main.786d88ad.js.map": "/awari-ulisses-dev/static/js/main.786d88ad.js.map",
+    "main.f9cd6137.css.map": "/awari-ulisses-dev/static/css/main.f9cd6137.css.map",
+    "main.56aa4e6e.js.map": "/awari-ulisses-dev/static/js/main.56aa4e6e.js.map",
     "787.56519065.chunk.js.map": "/awari-ulisses-dev/static/js/787.56519065.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78443875.css",
-    "static/js/main.786d88ad.js"
+    "static/css/main.f9cd6137.css",
+    "static/js/main.56aa4e6e.js"
   ]
 }
