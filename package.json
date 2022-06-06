@@ -11,6 +11,7 @@
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "ejs": "^3.1.8",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.6",
@@ -48,7 +49,7 @@
     "gh-pages": "^3.2.3",
     "react-scripts": "5.0.0"
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "description": "This project was created with React and is about my studendt develompt",
   "main": "index.js",
   "repository": {
     "type": "git",
